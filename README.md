@@ -107,6 +107,13 @@ A harmonic color scheme was chosen in order to match the expectation of a mindfu
      style="padding:16px" >
 
 ### Typography
+
+Fonts were selected to create a professional, classic and smooth impression. Balanced contrast was selected to create a harmony that is in line with the site's goal of a relaxed and mindful work-life balance. Font pairs were then generated using deep learning-based approach using [Fontjoy](https://fontjoy.com/). In the final website, fonts were imported via [Google Fonts](https://fonts.google.com/).
+- Lato (Light 300) was chosen for the Heading (H1)
+- Montserrat Alternates (Medium 500) was chosen for the body text on the site
+- Oswald (Regular 400) was chosen for Headings h2-h6
+
+
 ### Imagery 
 ### Wireframes 
 
@@ -176,3 +183,6 @@ A harmonic color scheme was chosen in order to match the expectation of a mindfu
 - Example Readme from Kera Cudmore
 - Love Running Example
 - License 
+- Color Palette Generator : Mycolor.space [Link](https://mycolor.space/)
+- Fontjoy [Link](https://fontjoy.com/)
+- Google Fonts [Link to Google Fonts](https://fonts.google.com/) 
