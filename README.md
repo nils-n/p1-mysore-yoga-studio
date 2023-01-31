@@ -56,7 +56,7 @@ This website targets members of an imaginary Yoga studio based in Glasgow, UK. S
 - Users want to know know who is teaching the classes.
 - Users want to know how to arrive at the studio.
 - Users want to know what are the prices.
-- Userswan t to know about the schedule. 
+- Users want to know about the schedule. 
 - Users want to know about the difficulty and types of the classes.
 - Users want to know what classes are most suitable based on their previous yoga experience.
 - Users want to ask specific questions via Facebook/Instagram
@@ -166,7 +166,7 @@ Wireframes were generated using [Balsamic Wireframe](https://balsamiq.com/) for 
 
 ### Deployment 
 
-This website was deployed via GitHub Pages using the main branch: [Link to live Website](#deployment). The following steps were followed: 
+This website was deployed via GitHub Pages using the main branch: [Link to live Website (PLACEHOLDER)](#deployment). The following steps were followed: 
 
 - Log into GitHub and navigate to this repository  
 - Click on "Settings" Button 
@@ -191,7 +191,7 @@ This website was deployed via GitHub Pages using the main branch: [Link to live 
 
 ## Testing 
 
-Add here a link to the [TESTING.md](#testing) file. 
+Add here a link to the [TESTING.md (PLACEHOLDER)](#testing) file. 
 
 ## Credits 
 
