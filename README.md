@@ -118,6 +118,13 @@ Fonts were selected to create a professional, classic and smooth impression. Bal
 
 ### Wireframes 
 
+Wireframes were generated using [Balsamic Wireframe](https://balsamiq.com/) for desktop, tablet and mobile displays.  
+
+- [Main Page (PLACEHOLDER)](#wireframes) 
+- [Teachers Page (PLACEHOLDER)](#wireframes) 
+- [Sign Up Page (PLACEHOLDER)](#wireframes) 
+
+
 --- 
 
 ## Features 
@@ -202,4 +209,5 @@ This website was deployed via GitHub Pages using the main branch: [Link to live 
 - Font Generator from  [Fontjoy](https://fontjoy.com/)
 - Fonts from [Google Fonts](https://fonts.google.com/) 
 - Images from  [Pexels](https://pexels.com/)
+- Wireframes from [Balsamic](https://balsamiq.com/) 
 - Code Insitute Mentor Support 
