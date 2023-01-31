@@ -115,6 +115,7 @@ Fonts were selected to create a professional, classic and smooth impression. Bal
 
 
 ### Imagery 
+
 ### Wireframes 
 
 --- 
@@ -180,9 +181,11 @@ Fonts were selected to create a professional, classic and smooth impression. Bal
 ### Media 
 
 ### Acknowledgements
-- Example Readme from Kera Cudmore
-- Love Running Example
-- License 
-- Color Palette Generator : Mycolor.space [Link](https://mycolor.space/)
-- Fontjoy [Link](https://fontjoy.com/)
-- Google Fonts [Link to Google Fonts](https://fonts.google.com/) 
+- Teaching and Support from Code Insitute [Code Insitute](https://codeinstitute.net/)
+- Example Readme from Kera Cudmore [Kera's Github](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md)
+- Love Running Example [Love Running Example](https://github.com/Code-Institute-Solutions/readme-template)
+- Color Palette Generator from [Mycolor.space](https://mycolor.space/)
+- Font Generator from  [Fontjoy](https://fontjoy.com/)
+- Fonts from [Google Fonts](https://fonts.google.com/) 
+- Images from  [Pexels](https://pexels.com/)
+- Code Insitute Mentor Support 
