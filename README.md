@@ -6,6 +6,14 @@ Image of the finished site > use amiresponsive.io
 
 Link to the live page
 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![GitHub contributors](https://img.shields.io/github/contributors/nils-n/p1-mysore-yoga-studio)
+![GitHub last commit](https://img.shields.io/github/last-commit/nils-n/p1-mysore-yoga-studio)
+![GitHub language count](https://img.shields.io/github/languages/count/nils-n/p1-mysore-yoga-studio)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/nils-n/p1-mysore-yoga-studio)
+
 
 --- 
 ## Table of Contents 
