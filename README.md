@@ -99,6 +99,13 @@ The sum of Impact/Feasibility is balanced after discarding the entry "Send remin
 ## Design
 
 ### Color Scheme
+
+A harmonic color scheme was chosen in order to match the expectation of a mindful-themed website. Warm, earth tones were chosen to create a warm, comforting atmosphere. The basic tone was taken using a color picker from the hero image using the color palette generator [Link to Acknowledgements](#acknowledgements)
+
+<img src="assets/images/color-palette.png"
+     alt="Image with five Colors and Hex codes for the colors used on this website"
+     style="padding:16px" >
+
 ### Typography
 ### Imagery 
 ### Wireframes 
