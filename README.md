@@ -15,12 +15,12 @@ Link to the live page
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/nils-n/p1-mysore-yoga-studio)
 
 
---- 
 ## Table of Contents 
 
-- [Project Introduction](#project-introduction)
 - [User Experience](#user-experience)
+    - [Mission](#mission)
     - [User Stories](#user-stories)
+    - [Website Aims](#website-aims)
 - [Design](#design)
     - [Color Scheme](#color-scheme)
     - [Typography](#typography) 
@@ -45,18 +45,56 @@ Link to the live page
     - [Media](#media)
     - [Acknowledgements](#acknowledgements)
 
-
---- 
-
-## Project Introduction
-
---- 
-
 ## User Experience
 
-### User Stories 
+### Mission 
 
---- 
+This website targets members of an imaginary Yoga studio based in Glasgow, UK. Since teachers and schedules can change at times, users want to be informed about those changes. Also, while progressing in their yoga practice, some students may want to inform about more advanced classes and other teachers. This website aims to inform current members about their classes and to recruit new members. 
+
+### User Stories 
+- Users want to find a place to reduce their stress
+- Users want to know know who is teaching the classes.
+- Users want to know how to arrive at the studio.
+- Users want to know what are the prices.
+- Userswan t to know about the schedule. 
+- Users want to know about the difficulty and types of the classes.
+- Users want to know what classes are most suitable based on their previous yoga experience.
+- Users want to ask specific questions via Facebook/Instagram
+- The Owner of the studio want to attract new clients and teachers
+- The Owner wants members to progress in their yoga development 
+- The Owner of the studio wants to keep current clients happy, relaxed and informed 
+
+### Website Aims
+
+- Provide all required information. 
+- Motivate to join and stay subscribed. 
+- Provide ways to contact the studio. 
+- add to overall positive experience also outside the class. 
+
+### How these needs are addressed
+
+- All possible user scenarios and potential needs were identified and documented. 
+- The user needs to feel instantly a positive emotion and should know instantly what to expect from this website. 
+- This is very important because users interested in Yoga usually try to reduce their stress - and dealing with a poorly designed website would be in contrast to the experience that they look for.  
+- Contact information of various channels will be provided, i.e. via Telephone/Email and Links to Facebook/Instagram channels.
+
+### Opportunities 
+
+| Description                    | Impact | Feasibility       | 
+|--------------------------------|--------|-------------------|
+| Inform about Schedule          | 5      | 5                 | 
+| Inform about Teachers          | 5      | 5                 | 
+| Recruit new members            | 5      | 5                 | 
+| Recruit new teachers           | 5      | 5                 | 
+| Keep current members           | 5      | 5                 | 
+| Provide Space for Relaxation   | 5      | 5                 | 
+| ~~Send reminders and updates~~ | 4      | 1                 | 
+| **Sum**                          | **30**   | **30**                | 
+
+
+### Feature selection
+
+The sum of Impact/Feasibility is balanced after discarding the entry "Send reminders and updates". This had to be discarded because it is currently not feasible with my current knowledge of CSS/HTML in the targeted time frame. This feature would be addressed in a future release when I have advanced in the class.
 
 ## Design
 
