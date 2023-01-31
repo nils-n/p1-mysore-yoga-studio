@@ -89,7 +89,7 @@ This website targets members of an imaginary Yoga studio based in Glasgow, UK. S
 | Keep current members           | 5      | 5                 | 
 | Provide Space for Relaxation   | 5      | 5                 | 
 | ~~Send reminders and updates~~ | 4      | 1                 | 
-| **Sum**                          | **30**   | **30**                | 
+| **Sum**                          | **30**   | **30**         | 
 
 
 ### Feature selection
@@ -122,10 +122,8 @@ Wireframes were generated using [Balsamic Wireframe](https://balsamiq.com/) for 
 
 - [Main Page (PLACEHOLDER)](#wireframes) 
 - [Teachers Page (PLACEHOLDER)](#wireframes) 
+- [Gallery Page (PLACEHOLDER)](#wireframes) 
 - [Sign Up Page (PLACEHOLDER)](#wireframes) 
-
-
---- 
 
 ## Features 
 
@@ -157,6 +155,7 @@ Wireframes were generated using [Balsamic Wireframe](https://balsamiq.com/) for 
 ## Technologies Used 
 
 ### Languages Used
+
 - HTML 
 - CSS 
 
@@ -192,12 +191,16 @@ This website was deployed via GitHub Pages using the main branch: [Link to live 
 
 ## Testing 
 
+Add here a link to the [TESTING.md](#testing) file. 
+
 ## Credits 
 
 ### Code Used
 - Shields.io
 
 ### Content 
+
+All of the content was written by myself and is fictionary and has no reference to any exisiting place. 
 
 ### Media 
 
