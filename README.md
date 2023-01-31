@@ -108,18 +108,41 @@ The sum of Impact/Feasibility is balanced after discarding the entry "Send remin
 ## Features 
 
 ### General Features 
-### Future Implementations
-### Accessibility
 
+#### Navigation Bar
+#### Hero Image
+#### Studio Overview Section
+#### Yoga Schedule Section
+#### Footer Section
+#### Teacher Section 
+#### Gallery Page 
+#### Signup Page 
+
+
+### Future Implementations
+
+- User login to personalize the experience.
+- receive offers and reminders for Yoga classes.
+- booking and managing classes online.
+- feedback to specific teachers or classes.
+- interactive feature i.e. a guest book.
+- online shop for supporting material (i.e. Yoga mats, Yoga cloths) or Yoga vacations/workshops.
+
+#### User section 
+
+### Accessibility
 
 --- 
 
 ## Technologies Used 
 
 ### Languages Used
-### Frameworks Used
+- HTML 
+- CSS 
 
---- 
+### Frameworks Used
+- N/A
+
 
 ## Deployment and Local Development 
 
@@ -144,4 +167,5 @@ The sum of Impact/Feasibility is balanced after discarding the entry "Send remin
 
 ### Acknowledgements
 - Example Readme from Kera Cudmore
+- Love Running Example
 - License 
