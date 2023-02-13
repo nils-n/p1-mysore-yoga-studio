@@ -135,7 +135,7 @@ Fonts were selected to create a professional, classic and smooth impression. Bal
 Wireframes were generated using [Balsamic Wireframe](https://balsamiq.com/) for desktop, tablet and mobile displays.  
 
 - [Main Page (PLACEHOLDER)](#wireframes) 
-- [Teachers Page (PLACEHOLDER)](#wireframes) 
+- [Yoga Classes Page (PLACEHOLDER)](#wireframes) 
 - [Gallery Page (PLACEHOLDER)](#wireframes) 
 - [Sign Up Page (PLACEHOLDER)](#wireframes) 
 
@@ -145,12 +145,19 @@ Wireframes were generated using [Balsamic Wireframe](https://balsamiq.com/) for 
 
 #### Navigation Bar
 #### Hero Image
-#### Studio Overview Section
+#### Studio Ethos Section
 #### Yoga Schedule Section
 #### Footer Section
-#### Teacher Section 
-#### Gallery Page 
+
+#### Yoga Classes Page 
+##### Class 1 - Yoga for Beginners 
+##### Class 2 - Vinyasa I 
+##### Class 3 - Vinyasa II
+##### Class 4 - Ashtanga I 
+##### Class 5 - Ashtanga II 
+
 #### Signup Page 
+##### This page is to allow new users to sign up for a first free try-out Yoga class. 
 
 
 ### Future Implementations
