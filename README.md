@@ -19,7 +19,7 @@ Link to the live page
 
 ## Table of Contents 
 
-- [User Experience](#user-experience)
+- [User Experience](#user-experience-ux)
     - [User Stories](#user-stories)
     - [Website Aims](#website-aims)
 - [Design](#design)
