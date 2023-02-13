@@ -52,17 +52,34 @@ Link to the live page
 This website targets members of an imaginary Yoga studio based in Glasgow, UK. Since teachers and schedules can change at times, users want to be informed about those changes. Also, while progressing in their yoga practice, some students may want to inform about more advanced classes and other teachers. This website aims to inform current members about their classes and to recruit new members. 
 
 ### User Stories 
-- Users want to find a place to reduce their stress
-- Users want to know know who is teaching the classes.
-- Users want to know how to arrive at the studio.
-- Users want to know what are the prices.
-- Users want to know about the schedule. 
-- Users want to know about the difficulty and types of the classes.
-- Users want to know what classes are most suitable based on their previous yoga experience.
-- Users want to ask specific questions via Facebook/Instagram
-- The Owner of the studio want to attract new clients and teachers
-- The Owner wants members to progress in their yoga development 
-- The Owner of the studio wants to keep current clients happy, relaxed and informed 
+
+As a first-time user, ...
+<ol>
+    <li>I want to know the ethos of the studio so that i know if it matches my own ethos</li>
+    <li>I want to form an expectation of the studio to that i feel motivated to try out a first class </li>
+    <li> I want an overview of available classes so that i can choose an approriate first class</li>
+    <li> I want to know the price of a class so that i can decide it will be worth it</li>
+    <li> I want to know the location so that i know how to arrive</li>
+    <li> I want to know the time schedule so that i know when to arrive</li>
+    <li>I want to contact the studio via Facebook/Instagram so that i can ask further questions</li>
+</ol>
+
+As a returning user, ...
+<ol>
+    <li>I want to to contact the studio so that i can ask a specific question</li>
+    <li>I want to get information about classes different from my current one (price, time)</li>
+    <li>I want to see the schedule of classes to remind me when to be there for my class</li>
+    <li>I want to see the prices of classes to remind me how much money to bring</li>
+</ol>
+
+As the site's owner,...
+<ol>
+    <li>I want to encourage new customers to come visit for a first class </li>
+    <li>I want to keep my current customers happy and help them progress in Yoga </li>
+    <li> I want to encourage current users to to enroll in additional classes</li>
+    <li>I want to expand the studio so that I can hire new teachers and add new Yoga classes </li>
+</ol>
+
 
 ### Website Aims
 
