@@ -2,6 +2,8 @@
 
 Description of the Project 
 
+This website targets members of an imaginary Yoga studio based in Glasgow, UK. The purpose of the studio is to provide a space where students can find relaxation and mindfulness outisde their stressful and competitive day-to-day life. The website encourages people to sign up for Yoga who have never practised Yoga before, and it provides basic information for Yoga students that are already signed up. 
+
 Image of the finished site > use amiresponsive.io
 
 Link to the live page
@@ -18,7 +20,6 @@ Link to the live page
 ## Table of Contents 
 
 - [User Experience](#user-experience)
-    - [Mission](#mission)
     - [User Stories](#user-stories)
     - [Website Aims](#website-aims)
 - [Design](#design)
@@ -45,11 +46,8 @@ Link to the live page
     - [Media](#media)
     - [Acknowledgements](#acknowledgements)
 
-## User Experience
 
-### Mission 
-
-This website targets members of an imaginary Yoga studio based in Glasgow, UK. The purpose of the studio is to provide a space where students can find relaxation and mindfulness outisde their stressful and competitive day-to-day life. It is a place that encourages people to sign up for Yoga who have never practised Yoga before, as well as for experienced Yoga users. The mission is to practice Yoga together regardless of the individual level.  
+## User Experience (UX)
 
 ### User Stories 
 
