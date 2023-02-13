@@ -49,7 +49,7 @@ Link to the live page
 
 ### Mission 
 
-This website targets members of an imaginary Yoga studio based in Glasgow, UK. Since teachers and schedules can change at times, users want to be informed about those changes. Also, while progressing in their yoga practice, some students may want to inform about more advanced classes and other teachers. This website aims to inform current members about their classes and to recruit new members. 
+This website targets members of an imaginary Yoga studio based in Glasgow, UK. The purpose of the studio is to provide a space where students can find relaxation and mindfulness outisde their stressful and competitive day-to-day life. It is a place that encourages people to sign up for Yoga who have never practised Yoga before, as well as for experienced Yoga users. The mission is to practice Yoga together regardless of the individual level.  
 
 ### User Stories 
 
@@ -99,12 +99,11 @@ As the site's owner,...
 
 | Description                    | Impact | Feasibility       | 
 |--------------------------------|--------|-------------------|
+| Inform about Location          | 5      | 5                 | 
 | Inform about Schedule          | 5      | 5                 | 
-| Inform about Teachers          | 5      | 5                 | 
+| Inform about Types of Classes    | 5      | 5                 | 
 | Recruit new members            | 5      | 5                 | 
-| Recruit new teachers           | 5      | 5                 | 
 | Keep current members           | 5      | 5                 | 
-| Provide Space for Relaxation   | 5      | 5                 | 
 | ~~Send reminders and updates~~ | 4      | 1                 | 
 | **Sum**                          | **30**   | **30**         | 
 
