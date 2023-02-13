@@ -97,13 +97,13 @@ As the site's owner,...
 
 | Description                    | Impact | Feasibility       | 
 |--------------------------------|--------|-------------------|
+| Inform about Studio Ethos      | 5      | 5                 | 
 | Inform about Location          | 5      | 5                 | 
 | Inform about Schedule          | 5      | 5                 | 
-| Inform about Types of Classes    | 5      | 5                 | 
 | Recruit new members            | 5      | 5                 | 
 | Keep current members           | 5      | 5                 | 
 | ~~Send reminders and updates~~ | 4      | 1                 | 
-| **Sum**                          | **30**   | **30**         | 
+| **Sum**                          | **25**   | **25**         | 
 
 
 ### Feature selection
