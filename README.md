@@ -132,16 +132,16 @@ Fonts were selected to create a professional, classic and smooth impression. Bal
 
 ### Wireframes 
 
-Wireframes were generated using [Balsamic Wireframe](https://balsamiq.com/) for desktop and mobile displays.  
+Wireframes were generated using [Balsamic Wireframe](https://balsamiq.com/) for mobile and desktop displays using a mobile-first approach.  
 
 #### Home Page
-<img src="assets/images/page1-home.png" alt="wireframe diagram of the home page created with balsamiq" style="padding: 0 0 4em">
+<img src="assets/images/page1-home.png" alt="wireframe diagram of the home page created with balsamiq" style="padding: 0 0 4em; width: 90%; ">
 
 #### Yoga Classes Page
-<img src="assets/images/page2-classes.png" alt="wireframe diagram of the page with the description of individual yoga classes, created with balsamiq" style="padding: 0 0 4em">
+<img src="assets/images/page2-classes.png" alt="wireframe diagram of the page with the description of individual yoga classes, created with balsamiq" style="padding: 0 0 4em; width: 90%;">
 
 #### Signup Page
-<img src="assets/images/page3-signup.png" alt="wireframe diagram of the sign-up page created with balsamiq" style="padding: 0 0 4em">>
+<img src="assets/images/page3-signup.png" alt="wireframe diagram of the sign-up page created with balsamiq" style="padding: 0 0 4em; width: 90%;">>
 
 ## Features 
 
