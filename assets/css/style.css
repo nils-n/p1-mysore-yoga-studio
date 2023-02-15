@@ -2,6 +2,7 @@
 .main-nav {
     display: flex;
     list-style: none;
+    flex-wrap: nowrap;
 }
 
 .main-nav > li {
@@ -12,6 +13,10 @@
 .push {
     margin-left:auto;
 }
+
+.no-wrap{
+    flex-shrink: 0;
+  }
 
 /* These are the imported fonts from google fonts  */
 body{
@@ -24,4 +29,12 @@ h1 {
 
 h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
+}
+
+/* add hero image section  */
+#hero-image {
+    height: 600px;
+    width: 100%; 
+    background: url("/assets/images/pexels-gustavo-fring-hero-image-resize.jpg") no-repeat center center;
+
 }
