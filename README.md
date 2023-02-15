@@ -241,4 +241,5 @@ All of the content was written by myself and is fictionary and has no reference 
 - Code Insitute Mentor Support 
 - Flexbox Navigation Bar example from Code Institute  [Slack](https://slack.com/) Channel  (Sean_ci, "How to easily create a Navigation Menu with Flexbox", 16th Feb 2022)
 - Tipps how to style Hero image [Link To Website](https://blog.hubspot.com/marketing/hero-image)
+- Tipps on how to use Grid to create a schedule [CSS Tricks](https://css-tricks.com/building-a-conference-schedule-with-css-grid/)
 

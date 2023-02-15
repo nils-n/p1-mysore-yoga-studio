@@ -115,14 +115,84 @@ h2, h3, h4, h5, h6 {
 }
 
 /* style flexbox elements for the schedule section of the main page */
-.container {
-    display: flex;
-    flex-flow: row no-wrap;
-    justify-content: flex-start;
+.schedule {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows:
+        [days] auto 
+        [time-0800] 1fr
+        [time-0830] 1fr
+        [time-0900] 1fr
+        [time-0930] 1fr
+        [time-1000] 1fr
+        [time-1030] 1fr
+        [time-1100] 1fr
+        [time-1130] 1fr
+        [time-1200] 1fr;
+    grid-template-columns: 
+        [times] 4em
+        [day-1-start] 1fr
+        [day-1-end day-2-start] 1fr
+        [day-2-end day-3-start] 1fr
+        [day-3-end day-4-start] 1fr
+        [day-4-end day-5-start] 1fr
+        [day-5-end];
 }
 
-.item {
-    background-color: cornflowerblue;
-    margin: 0 auto;
-    padding: 10px;
+.time-slot {
+    grid-column: times;
+}
+
+@supports( display:grid ) {
+    @media screen and (min-width:700px) {
+      .day-slot {
+        display: block;
+        padding: 10px 5px 5px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: rgba(255,255,255,.9);
+      }
+    }
+  }
+
+.yoga-beginner {
+    background-color: #54433A;
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px; 
+}
+
+.yoga-vinyasa {
+    background-color: #AFC9B4;
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px; 
+}
+
+.yoga-ashtanga {
+    background-color: #7A937F;
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px; 
+}
+
+.session {
+    padding: .5em;
+    border-radius: 2px;
+    font-size: 14px;
+    box-shadow:
+      rgba(255,255,255,.6) 1px 1px 0,
+      rgba(0,0,0,.3) 4px 4px 0;
+  }
+
+.class-title,
+.class-time,
+.class-teacher,
+.class-link {
+  display: block;
+}
+
+.time-slot {
+  font-weight: bold;
 }
