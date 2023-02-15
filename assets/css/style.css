@@ -59,3 +59,16 @@ h2, h3, h4, h5, h6 {
     font-weight: bold;
     margin-top: 1rem;
 }
+
+/* add a button style to the page */
+.button {
+    background-color: #AFC9B4;
+    border: 0;
+    color: white;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    width: 100px;
+    border-radius: 5px;
+}
