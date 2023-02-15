@@ -1,0 +1,14 @@
+/* styling of the navigation elements */
+.main-nav {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav > li {
+    align-self: center;
+    padding: 10px 15px;
+}
+
+.push {
+    margin-left:auto;
+}
