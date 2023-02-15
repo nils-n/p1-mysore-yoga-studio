@@ -113,3 +113,16 @@ h2, h3, h4, h5, h6 {
     margin-top: 20px;
     text-align: left;
 }
+
+/* style flexbox elements for the schedule section of the main page */
+.container {
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: flex-start;
+}
+
+.item {
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    padding: 10px;
+}
