@@ -79,3 +79,19 @@ h2, h3, h4, h5, h6 {
         width: 100px;
     }
 }
+
+/* style elements for the studio ethos */
+#studio-ethos {
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
+}
+
+#studio-ethos > div {
+    line-height: 140%;
+}
