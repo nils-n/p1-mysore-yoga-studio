@@ -121,22 +121,28 @@ h2, h3, h4, h5, h6 {
     flex-direction: column;
 }
 
-/* define here the location on each session in a desktop setting */
-.monday-0800-0900{
-    align-self: center;
-}
-
-.monday-0900-1000{
-    align-self: center;
-}
-
-.tuesday-0900-1000{
+/* on mobile, all of the days fall in one column. So, we don't need to take care of its grid position and can just align them. */
+.monday-0800-0900,
+.monday-0900-1000,
+.monday-1000-1100,
+.tuesday-0900-1000,
+.wednesday-0800-0900,
+.wednesday-0900-1000,
+.wednesday-0900-1000,
+.thursday-0900-1100,
+.friday-1000-1100
+{
     align-self: center;
 }
 
 /* make times disappear on mobile */
 .time-slot {
     display: none;
+}
+
+/* flex item of the current day - this should be just above the daily schedule on a mobile display */
+.day {
+    padding: 10px 0;
 }
 
 /* define here the location on each session in a desktop setting */
@@ -169,6 +175,25 @@ h2, h3, h4, h5, h6 {
         display: block;
         grid-column: times;
     }
+
+    /* grid item of the current days. This should be in the first row on large displays.  */
+    .day-monday {
+        grid-column: day-1; grid-row: days/ time-0800;
+    }
+    .day-tuesday {
+        grid-column: day-2; grid-row: days/ time-0800;
+    }
+    .day-wednesday {
+        grid-column: day-3; grid-row: days/ time-0800;
+    }
+    .day-thursday {
+        grid-column: day-4; grid-row: days/ time-0800;
+    }
+    .day-friday {
+        grid-column: day-5; grid-row: days/ time-0800;
+    }
+
+    /* grid item of the individual classes on a mobile display. Since they lie on a 2D grid, their position is defined individually on large screens. */
     .monday-0800-0900{
         grid-column: day-1; grid-row: time-0800 / time-0900;
     }
@@ -177,10 +202,33 @@ h2, h3, h4, h5, h6 {
         grid-column: day-1; grid-row: time-0900 / time-1000;
     }
 
+    .monday-1000-1100{
+        grid-column: day-1; grid-row: time-1000 / time-1100;
+    }
+
     .tuesday-0900-1000{
         grid-column: day-2; grid-row: time-0900 / time-1000;
     }
 
+    .wednesday-0800-0900{
+        grid-column: day-3; grid-row: time-0800 / time-0900;
+    }
+
+    .wednesday-0900-1000{
+        grid-column: day-3; grid-row: time-0900 / time-1000;
+    }
+
+    .wednesday-1000-1100{
+        grid-column: day-3; grid-row: time-1000 / time-1100;
+    }
+    .thursday-0900-1000{
+        grid-column: day-4; grid-row: time-0900 / time-1000;
+    }
+    .friday-1000-1100{
+        grid-column: day-5; grid-row: time-0900 / time-1000;
+    }
+
+    /* characterists that all the days share */
     .day-slot {
         display: block;
         padding: 10px 5px 5px;
@@ -189,8 +237,6 @@ h2, h3, h4, h5, h6 {
         z-index: 1000;
         background-color: rgba(255,255,255,.9);
       }
-
-
 }
 
 .yoga-beginner {
