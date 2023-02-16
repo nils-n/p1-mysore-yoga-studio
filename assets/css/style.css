@@ -119,6 +119,7 @@ h2, h3, h4, h5, h6 {
 .schedule {
     display: flex wrap;
     flex-direction: column;
+    padding: 0 10px;
 }
 
 /* on mobile, all of the days fall in one column. So, we don't need to take care of its grid position and can just align them. */
@@ -142,7 +143,12 @@ h2, h3, h4, h5, h6 {
 
 /* flex item of the current day - this should be just above the daily schedule on a mobile display */
 .day {
-    padding: 10px 0;
+    display: block;
+    padding: 10px 5px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(255,255,255,.9);
 }
 
 /* define here the location on each session in a desktop setting */
@@ -225,20 +231,12 @@ h2, h3, h4, h5, h6 {
         grid-column: day-4; grid-row: time-0900 / time-1000;
     }
     .friday-1000-1100{
-        grid-column: day-5; grid-row: time-0900 / time-1000;
+        grid-column: day-5; grid-row: time-1000 / time-1100;
     }
 
-    /* characterists that all the days share */
-    .day-slot {
-        display: block;
-        padding: 10px 5px 5px;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        background-color: rgba(255,255,255,.9);
-      }
 }
 
+/* styling of the individual classes  */
 .yoga-beginner {
     background-color: #54433A;
     color: white;
@@ -260,10 +258,11 @@ h2, h3, h4, h5, h6 {
     border-radius: 5px; 
 }
 
+/* styling that all classes have in common */
 .session {
     padding: .5em;
     border-radius: 2px;
-    font-size: 14px;
+    font-size: 15px;
     box-shadow:
       rgba(255,255,255,.6) 1px 1px 0,
       rgba(0,0,0,.3) 4px 4px 0;
