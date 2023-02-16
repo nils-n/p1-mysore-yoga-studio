@@ -395,6 +395,7 @@ footer  p {
 .classes-container {
     display: flex ;
     flex-direction: column;
+    height: 600px;
 } 
 
 .classes-item {
@@ -419,5 +420,8 @@ footer  p {
     align-content: center;
     background-color: royalblue;
     margin: 5px 10px;
-
 } 
+
+.class-detail-item h3 {
+    padding: 40px 0;
+}
