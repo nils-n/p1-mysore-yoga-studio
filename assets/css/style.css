@@ -1,11 +1,11 @@
 /* general styling rules */
 * {
-    margin: 0 ;
+    margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
 
-}   
+}
 
 /* styling of the navigation elements */
 .main-nav {
@@ -13,25 +13,25 @@
     list-style: none;
     flex-wrap: nowrap;
     height: 100px;
-    background-color: rgba(219,189,171,.1);
+    background-color: rgba(219, 189, 171, .1);
 
 }
 
-.main-nav > li {
+.main-nav>li {
     align-self: center;
     padding: 10px 15px;
 }
-  
+
 .push {
-    margin-left:auto;
+    margin-left: auto;
 }
 
-.no-wrap{
+.no-wrap {
     flex-shrink: 0;
-  }
+}
 
 /* These are the imported fonts from google fonts  */
-body{
+body {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -39,20 +39,24 @@ h1 {
     font-family: 'Lato', sans-serif;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Oswald', sans-serif;
 }
 
 section {
-    background-color: rgba(219,189,171,.1);
+    background-color: rgba(219, 189, 171, .1);
 }
 
 /* add hero image section for mobile  */
 #hero-image {
     height: 600px;
-    width: 100%; 
+    width: 100%;
     background: url("/assets/images/hero-image-mobile.jpg") no-repeat center center;
-    display:flex;
+    display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -60,31 +64,31 @@ section {
 
 /* welcome message on hero image for mobile */
 #hero-text {
-    color:   #54433A;
+    color: #54433A;
     position: absolute;
     opacity: 1.0;
     text-align: center;
     font-weight: 800;
-    left:70%;
-    bottom:  50%;
+    left: 70%;
+    bottom: 50%;
 }
 
 /* change display of hero image and text on larger screens  */
 @media only screen and (min-width: 768px) {
     #hero-image {
         height: 550px;
-        width: 100%; 
+        width: 100%;
         background: url("/assets/images/hero-image-wide.jpg") no-repeat center center;
     }
-   
+
     #hero-text {
-        color:   #54433A;
+        color: #54433A;
         position: absolute;
         opacity: 1.0;
         text-align: center;
         font-weight: 800;
-        left:65%;
-        bottom:  50%;
+        left: 65%;
+        bottom: 50%;
     }
 }
 
@@ -111,7 +115,7 @@ section {
     margin-top: 1.5rem;
     padding: 0.5rem;
     width: 90%;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 /* Media query to make button look smaller on larger screen */
@@ -130,14 +134,14 @@ section {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 60%; 
+    width: 60%;
 
 }
 
-#ethos-background{
+#ethos-background {
     height: 600px;
     background-color: #DBBDAB;
-    opacity: 10%; 
+    opacity: 10%;
     position: absolute;
     left: 0;
     right: 0;
@@ -145,7 +149,7 @@ section {
     top: 700px;
 }
 
-#studio-ethos > div {
+#studio-ethos>div {
     line-height: 140%;
     padding: 20px 0;
 }
@@ -166,7 +170,7 @@ section {
     flex-direction: column;
     padding: 0 10px;
     /* background-color: rgba(219,189,171,.1); */
-    background-color: rgba(122,147,127,.1);
+    background-color: rgba(122, 147, 127, .1);
 }
 
 /* on mobile, all of the days fall in one column. So, we don't need to take care of its grid position and can just align them. */
@@ -178,8 +182,7 @@ section {
 .wednesday-0900-1000,
 .wednesday-0900-1000,
 .thursday-0900-1100,
-.friday-1000-1100
-{
+.friday-1000-1100 {
     align-self: center;
 }
 
@@ -195,7 +198,7 @@ section {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: rgba(219,189,171,.1);
+    background-color: rgba(219, 189, 171, .1);
 
 }
 
@@ -205,26 +208,11 @@ section {
         display: grid;
         grid-gap: 1rem;
         grid-template-rows:
-            [days] auto 
-            [time-0800] 1fr
-            [time-0830] 1fr
-            [time-0900] 1fr
-            [time-0930] 1fr
-            [time-1000] 1fr
-            [time-1030] 1fr
-            [time-1100] 1fr
-            [time-1130] 1fr
-            [time-1200] 1fr;
-        grid-template-columns: 
-            [times] 4em
-            [day-1-start] 1fr
-            [day-1-end day-2-start] 1fr
-            [day-2-end day-3-start] 1fr
-            [day-3-end day-4-start] 1fr
-            [day-4-end day-5-start] 1fr
-            [day-5-end];
+            [days] auto [time-0800] 1fr [time-0830] 1fr [time-0900] 1fr [time-0930] 1fr [time-1000] 1fr [time-1030] 1fr [time-1100] 1fr [time-1130] 1fr [time-1200] 1fr;
+        grid-template-columns:
+            [times] 4em [day-1-start] 1fr [day-1-end day-2-start] 1fr [day-2-end day-3-start] 1fr [day-3-end day-4-start] 1fr [day-4-end day-5-start] 1fr [day-5-end];
     }
-    
+
     .time-slot {
         display: block;
         grid-column: times;
@@ -232,54 +220,74 @@ section {
 
     /* grid item of the current days. This should be in the first row on large displays.  */
     .day-monday {
-        grid-column: day-1; grid-row: days/ time-0800;
+        grid-column: day-1;
+        grid-row: days/ time-0800;
     }
+
     .day-tuesday {
-        grid-column: day-2; grid-row: days/ time-0800;
+        grid-column: day-2;
+        grid-row: days/ time-0800;
     }
+
     .day-wednesday {
-        grid-column: day-3; grid-row: days/ time-0800;
+        grid-column: day-3;
+        grid-row: days/ time-0800;
     }
+
     .day-thursday {
-        grid-column: day-4; grid-row: days/ time-0800;
+        grid-column: day-4;
+        grid-row: days/ time-0800;
     }
+
     .day-friday {
-        grid-column: day-5; grid-row: days/ time-0800;
+        grid-column: day-5;
+        grid-row: days/ time-0800;
     }
 
     /* grid item of the individual classes on a mobile display. Since they lie on a 2D grid, their position is defined individually on large screens. */
-    .monday-0800-0900{
-        grid-column: day-1; grid-row: time-0800 / time-0900;
+    .monday-0800-0900 {
+        grid-column: day-1;
+        grid-row: time-0800 / time-0900;
     }
 
-    .monday-0900-1000{
-        grid-column: day-1; grid-row: time-0900 / time-1000;
+    .monday-0900-1000 {
+        grid-column: day-1;
+        grid-row: time-0900 / time-1000;
     }
 
-    .monday-1000-1100{
-        grid-column: day-1; grid-row: time-1000 / time-1100;
+    .monday-1000-1100 {
+        grid-column: day-1;
+        grid-row: time-1000 / time-1100;
     }
 
-    .tuesday-0900-1000{
-        grid-column: day-2; grid-row: time-0900 / time-1000;
+    .tuesday-0900-1000 {
+        grid-column: day-2;
+        grid-row: time-0900 / time-1000;
     }
 
-    .wednesday-0800-0900{
-        grid-column: day-3; grid-row: time-0800 / time-0900;
+    .wednesday-0800-0900 {
+        grid-column: day-3;
+        grid-row: time-0800 / time-0900;
     }
 
-    .wednesday-0900-1000{
-        grid-column: day-3; grid-row: time-0900 / time-1000;
+    .wednesday-0900-1000 {
+        grid-column: day-3;
+        grid-row: time-0900 / time-1000;
     }
 
-    .wednesday-1000-1100{
-        grid-column: day-3; grid-row: time-1000 / time-1100;
+    .wednesday-1000-1100 {
+        grid-column: day-3;
+        grid-row: time-1000 / time-1100;
     }
-    .thursday-0900-1000{
-        grid-column: day-4; grid-row: time-0900 / time-1000;
+
+    .thursday-0900-1000 {
+        grid-column: day-4;
+        grid-row: time-0900 / time-1000;
     }
-    .friday-1000-1100{
-        grid-column: day-5; grid-row: time-1000 / time-1100;
+
+    .friday-1000-1100 {
+        grid-column: day-5;
+        grid-row: time-1000 / time-1100;
     }
 
 }
@@ -289,21 +297,21 @@ section {
     background-color: #54433A;
     color: white;
     padding: 0 10px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .yoga-vinyasa {
     background-color: #AFC9B4;
     color: white;
     padding: 0 10px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .yoga-ashtanga {
     background-color: #7A937F;
     color: white;
     padding: 0 10px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 /* styling that all classes have in common */
@@ -312,34 +320,34 @@ section {
     border-radius: 2px;
     font-size: 15px;
     box-shadow:
-      rgba(255,255,255,.6) 1px 1px 0,
-      rgba(0,0,0,.3) 4px 4px 0;
-  }
+        rgba(255, 255, 255, .6) 1px 1px 0,
+        rgba(0, 0, 0, .3) 4px 4px 0;
+}
 
 .class-title,
 .class-time,
 .class-teacher,
 .class-link {
-  display: block;
+    display: block;
 }
 
 .time-slot {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 /* styling of the section with contact and google maps. if mobile screen, display address details and map as two blocks*/
 .contact-container {
     height: 600px;
-    display: flex ;
+    display: flex;
     flex-direction: column;
-    background-color: rgba(219,189,171,.1);
+    background-color: rgba(219, 189, 171, .1);
 }
 
 .contact-container h2 {
     padding: 40px 0 20px 0;
 }
 
-.contact-item{
+.contact-item {
     display: flex;
     flex-grow: 1;
     justify-content: space-evenly;
@@ -375,39 +383,39 @@ footer {
     background-color: #AFC9B4;
     color: #54433A;
     padding: 25px 15px;
-    font-family: 'Lato', sans-serif; 
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
 
-footer > a {
+footer>a {
     padding: 0px 15px;
     font-size: 15px;
     font-weight: bold;
 
 }
 
-footer  p {
+footer p {
     padding: 0 25px;
     font-size: 15px;
 }
 
 /* styling for classes HTML page: columnar flexbox with the individual yoga classes as items */
 .classes-container {
-    display: flex ;
+    display: flex;
     flex-direction: column;
     max-width: 600px;
-} 
+}
 
 .classes-item {
     display: flex;
     flex-grow: 1;
     justify-content: space-evenly;
     align-content: center;
-} 
+}
 
 /* styling for each yoga as a row-oriented flexbox with the information pieces as items */
 .class-details-container {
-    display: flex ;
+    display: flex;
     flex-direction: row;
 }
 
@@ -418,7 +426,7 @@ footer  p {
     justify-content: flex-start;
     align-content: center;
     margin: 5px 10px;
-} 
+}
 
 .class-detail-item h3 {
     padding: 20px 0;
@@ -427,26 +435,25 @@ footer  p {
     font-size: 1.6rem;
 }
 
-i + i {
+i+i {
     padding-left: 0.5rem;
 }
 
 /*  images for the class page for mobile screens */
 .classes-image-small {
     height: 150px;
-    width: 150px; 
+    width: 150px;
     border-radius: 50%;
     margin-top: 100px;
 }
 
 .classes-image {
     height: 600px;
-    width: 100%; 
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 #beginner-image {
     background: url("/assets/images/beginner-800-1200-mobile.jpg") no-repeat center center;
@@ -475,41 +482,40 @@ i + i {
     background-size: 200px;
 }
 
-
 /* change display of class images slighlty when displayed on tablet screens  */
 @media only screen and (min-width: 768px) {
 
     /* increase size of the small circular image on larger displays */
-    .classes-image-small{
-        width: 200px; 
+    .classes-image-small {
+        width: 200px;
         height: 200px;
         margin-top: 50%;
-    } 
+    }
 
     #beginner-image {
         height: 550px;
-        width: 100%; 
+        width: 100%;
         background: url("/assets/images/beginner-large-screen.jpg") no-repeat center center;
     }
 
     #vinyasa-image {
         height: 550px;
-        width: 100%; 
+        width: 100%;
         background: url("/assets/images/vinyasa-wide.jpg") no-repeat center center;
     }
 
     #ashtanga-image {
         background: url("/assets/images/ashtange-wide.jpg") no-repeat center center;
     }
-   
-   
+
+
 }
 
 /* make classes page responsive :  column on mobile screen and two columns on desktop screens÷ */
 #flexContainer {
-    display:block;
+    display: block;
     margin: 0 auto;
-    
+
 }
 
 /* make classes page responsive : for tablet size and small desktops÷ */
@@ -526,21 +532,85 @@ i + i {
         max-width: 600px;
     }
 
-
     #flexContainer {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
     }
 
     /* since we are displaying in this case with two colums, use the smaller image from mobile screen again */
     #beginner-image {
         background: url("/assets/images/beginner-800-1200-mobile.jpg") no-repeat center center;
     }
-    
+
     #vinyasa-image {
         background: url("/assets/images/vinyasa-movile.jpg") no-repeat center center;
     }
+}
 
-  }
+/* style the signup html page  */
+#signup-image {
+    background: url("/assets/images/signup-mobile.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%
+}
+
+/* style signup page for larger displays  */
+@media only screen and (min-width: 768px) {
+    #signup-image {
+        background: url("/assets/images/signup-wide.jpg") no-repeat center center;
+
+    }
+}
+
+/* style taken and adapted from love running project  */
+.signup-form {
+    color: #fff;
+    margin: 120px 0 0 40px;
+    max-width: 300px;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 20px;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+}
+
+.signup-form input[type="radio"] {
+    float:left;
+    padding: 10px 0;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.date-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    display: block;
+    color: #fafafa;
+}
