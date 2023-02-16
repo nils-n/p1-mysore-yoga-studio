@@ -64,15 +64,23 @@
     <!-- Week Schedule -->
     <section> 
 
+        <!-- Grid container -->
         <div class="schedule">
 
-             <!-- Display Day : Monday -->
+             <!-- Display Days in First Row -->
              <div class='day-display' style="grid-column: day-1; grid-row: days/ time-0800;">Monday</div>
 
+             <!-- <div class='day-display' style="grid-column: day-3; grid-row: days/ time-0800;">Wednesday</div> -->
+             <!-- <div class='day-display' style="grid-column: day-4; grid-row: days/ time-0800;">Thursday</div> -->
+
+             <!-- Display Times in First Column -->
+             <h3 class="time-slot" style="grid-column: times; grid-row: time-0800 / time-0900;">8:00</h3>
+             <h3 class="time-slot" style="grid-column: times; grid-row: time-0900 / time-1000;">9:00</h3>
+             <h3 class="time-slot" style="grid-column: times; grid-row: time-1000 / time-1100;">10:00</h3>
+             <h3 class="time-slot" style="grid-column: times; grid-row: time-1100 / time-1200;">11:00</h3>
 
              <!-- Class 1 on Monday -->
-            <h3 class="time-slot" style="grid-column: times; grid-row: time-0800 / time-0900;">8:00</h3>
-            <div class='session yoga-beginner' style="grid-column: day-1; grid-row: time-0800 / time-0900;">
+            <div class='session yoga-beginner monday-0800-0900'>
                 <h4 class="class-title">Yoga for Beginner</h4>
                 <span class="class-time"> 8:00 - 9:00</span>
                 <span class="class-teacher">Obi Van</span>
@@ -80,8 +88,7 @@
             </div>
 
              <!-- Class 2 on Monday -->
-            <h3 class="time-slot" style="grid-column: times; grid-row: time-0900 / time-1000;">9:00</h3>
-            <div class='session yoga-vinyasa' style="grid-column: day-1; grid-row: time-0900 / time-1000;">
+            <div class='session yoga-vinyasa monday-0900-1000'>
                 <h4 class="class-title">Vinyasa Yoga</h4>
                 <span class="class-time"> 9:00 - 10:00</span>
                 <span class="class-teacher">Franz Josef</span>
@@ -89,16 +96,24 @@
             </div>
 
              <!-- Class 3 on Monday -->
-            <h3 class="time-slot" style="grid-column: times; grid-row: time-1000 / time-1100;">10:00</h3>
-            <div class='session yoga-ashtanga' style="grid-column: day-1; grid-row: time-1000 / time-1100;">
+            <!-- <div class='session yoga-ashtanga' style="grid-column: day-1; grid-row: time-1000 / time-1100;">
                 <h4 class="class-title">Ashtanga Yoga</h4>
                 <span class="class-time"> 10:00 - 11:00</span>
                 <span class="class-teacher">Tobias</span>
                 <span class="class-link">More Info</span>
-            </div>
+            </div> -->
 
-             <!-- Class 4 on Monday -->
-            <h3 class="time-slot" style="grid-column: times; grid-row: time-1100 / time-1200;">11:00</h3>
+            <!-- Tuesday -->
+            <div class='day-display' style="grid-column: day-2; grid-row: days/ time-0800;">Tuesday</div>
+
+
+             <!-- Class 1 on Tuesday -->
+             <div class='session yoga-ashtanga tuesday-0900-1000'>
+                <h4 class="class-title">Ashtanga Yoga</h4>
+                <span class="class-time"> 9:00 - 10:00</span>
+                <span class="class-teacher">Tobias</span>
+                <span class="class-link">More Info</span>
+            </div>
 
 
         </div>

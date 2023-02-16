@@ -114,38 +114,74 @@ h2, h3, h4, h5, h6 {
     text-align: left;
 }
 
-/* style flexbox elements for the schedule section of the main page */
+
+/* schedule is a flexbox in a mobile setting and a grid in a desktop display*/
 .schedule {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-rows:
-        [days] auto 
-        [time-0800] 1fr
-        [time-0830] 1fr
-        [time-0900] 1fr
-        [time-0930] 1fr
-        [time-1000] 1fr
-        [time-1030] 1fr
-        [time-1100] 1fr
-        [time-1130] 1fr
-        [time-1200] 1fr;
-    grid-template-columns: 
-        [times] 4em
-        [day-1-start] 1fr
-        [day-1-end day-2-start] 1fr
-        [day-2-end day-3-start] 1fr
-        [day-3-end day-4-start] 1fr
-        [day-4-end day-5-start] 1fr
-        [day-5-end];
+    display: flex wrap;
+    flex-direction: column;
 }
 
+/* define here the location on each session in a desktop setting */
+.monday-0800-0900{
+    align-self: center;
+}
+
+.monday-0900-1000{
+    align-self: center;
+}
+
+.tuesday-0900-1000{
+    align-self: center;
+}
+
+/* make times disappear on mobile */
 .time-slot {
-    grid-column: times;
+    display: none;
 }
 
-@supports( display:grid ) {
-    @media screen and (min-width:700px) {
-      .day-slot {
+/* define here the location on each session in a desktop setting */
+@media only screen and (min-width: 768px) {
+    .schedule {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-rows:
+            [days] auto 
+            [time-0800] 1fr
+            [time-0830] 1fr
+            [time-0900] 1fr
+            [time-0930] 1fr
+            [time-1000] 1fr
+            [time-1030] 1fr
+            [time-1100] 1fr
+            [time-1130] 1fr
+            [time-1200] 1fr;
+        grid-template-columns: 
+            [times] 4em
+            [day-1-start] 1fr
+            [day-1-end day-2-start] 1fr
+            [day-2-end day-3-start] 1fr
+            [day-3-end day-4-start] 1fr
+            [day-4-end day-5-start] 1fr
+            [day-5-end];
+    }
+    
+    .time-slot {
+        display: block;
+        grid-column: times;
+    }
+    .monday-0800-0900{
+        grid-column: day-1; grid-row: time-0800 / time-0900;
+    }
+
+    .monday-0900-1000{
+        grid-column: day-1; grid-row: time-0900 / time-1000;
+    }
+
+    .tuesday-0900-1000{
+        grid-column: day-2; grid-row: time-0900 / time-1000;
+    }
+
+    .day-slot {
         display: block;
         padding: 10px 5px 5px;
         position: sticky;
@@ -153,8 +189,9 @@ h2, h3, h4, h5, h6 {
         z-index: 1000;
         background-color: rgba(255,255,255,.9);
       }
-    }
-  }
+
+
+}
 
 .yoga-beginner {
     background-color: #54433A;
