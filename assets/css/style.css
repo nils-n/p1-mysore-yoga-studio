@@ -3,6 +3,7 @@
     margin: 0 ;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }   
 
 /* styling of the navigation elements */
@@ -277,4 +278,35 @@ h2, h3, h4, h5, h6 {
 
 .time-slot {
   font-weight: bold;
+}
+
+/* styling of the section with contact and google maps. if mobile screen, display address details and map as two blocks*/
+.contact-container {
+    display: flex ;
+    flex-direction: column;
+}
+
+.contact-item{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-content: center;
+    padding:15px 10px;
+
+}
+
+#map {
+    display: block;
+    width: 90%;
+    justify-content: stretch;
+    align-content: stretch;
+} 
+
+/* if desktop screen, display address next to the map  */
+@media only screen and (min-width: 768px) {
+    flex-direction: row;
+
+    #map {
+        width: 50%;
+    }
 }
