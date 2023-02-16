@@ -66,7 +66,7 @@ h2, h3, h4, h5, h6 {
 /* change display of hero image and text on larger screens  */
 @media only screen and (min-width: 768px) {
     #hero-image {
-        height: 550px;
+        height: 55git 0px;
         width: 100%; 
         background: url("/assets/images/hero-image-wide.jpg") no-repeat center center;
     }
