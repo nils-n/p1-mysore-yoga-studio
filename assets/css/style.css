@@ -304,7 +304,7 @@ h2, h3, h4, h5, h6 {
 
     justify-content: stretch;
     align-content: stretch;
-} 
+}
 
 /* if desktop screen, display address next to the map  */
 @media only screen and (min-width: 768px) {
