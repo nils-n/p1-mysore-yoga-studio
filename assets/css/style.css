@@ -456,6 +456,9 @@ i + i {
     background: url("/assets/images/vinyasa-movile.jpg") no-repeat center center;
 }
 
+#ashtanga-image {
+    background: url("/assets/images/asthanga-mobile.jpg") no-repeat center center;
+}
 
 #beginner-image-small {
     background: url("/assets/images/alaistar-small.jpg") no-repeat center center;
@@ -467,7 +470,13 @@ i + i {
     background-size: 200px;
 }
 
-/* change display of class images when displayed on larger screens  */
+#ashtanga-image-small {
+    background: url("/assets/images/jean-teacher.jpg") no-repeat center center;
+    background-size: 200px;
+}
+
+
+/* change display of class images slighlty when displayed on tablet screens  */
 @media only screen and (min-width: 768px) {
 
     /* increase size of the small circular image on larger displays */
@@ -475,14 +484,24 @@ i + i {
         width: 200px; 
         height: 200px;
         margin-top: 50%;
-
     } 
 
     #beginner-image {
-        height: 55 0px;
+        height: 550px;
         width: 100%; 
         background: url("/assets/images/beginner-large-screen.jpg") no-repeat center center;
     }
+
+    #vinyasa-image {
+        height: 550px;
+        width: 100%; 
+        background: url("/assets/images/vinyasa-wide.jpg") no-repeat center center;
+    }
+
+    #ashtanga-image {
+        background: url("/assets/images/ashtange-wide.jpg") no-repeat center center;
+    }
+   
    
 }
 
