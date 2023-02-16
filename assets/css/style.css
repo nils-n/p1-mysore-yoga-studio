@@ -431,7 +431,7 @@ i + i {
     padding-left: 0.5rem;
 }
 
-/* add images to the class page for mobile screens */
+/*  images for the class page for mobile screens */
 .classes-image-small {
     height: 150px;
     width: 150px; 
@@ -439,16 +439,30 @@ i + i {
     margin-top: 100%;
 }
 
-#beginner-image {
+.classes-image {
     height: 600px;
     width: 100%; 
-    background: url("/assets/images/beginner-800-1200-mobile.jpg") no-repeat center center;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
+#beginner-image {
+    background: url("/assets/images/beginner-800-1200-mobile.jpg") no-repeat center center;
+}
+
+#vinyasa-image {
+    background: url("/assets/images/vinyasa-movile.jpg") no-repeat center center;
+}
+
+
 #beginner-image-small {
+    background: url("/assets/images/alaistar-small.jpg") no-repeat center center;
+    background-size: 200px;
+}
+
+#vinyasa-image-small {
     background: url("/assets/images/beginner-2-small.jpg") no-repeat center center;
     background-size: 200px;
 }
