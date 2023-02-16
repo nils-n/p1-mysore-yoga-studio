@@ -236,10 +236,13 @@ All of the content was written by myself and is fictionary and has no reference 
 - Color Palette Generator from [Mycolor.space](https://mycolor.space/)
 - Font Generator from  [Fontjoy](https://fontjoy.com/)
 - Fonts from [Google Fonts](https://fonts.google.com/) 
-- Images from  [Pexels](https://pexels.com/)
+- Images from  [Pexels](https://pexels.com/) : 
+    - RODNAE Productions (Photographer)
+    - Yan Krukau (Photographer)
 - Wireframes from [Balsamic](https://balsamiq.com/) 
-- Code Insitute Mentor Support 
 - Flexbox Navigation Bar example from Code Institute  [Slack](https://slack.com/) Channel  (Sean_ci, "How to easily create a Navigation Menu with Flexbox", 16th Feb 2022)
 - Tipps how to style Hero image [Link To Website](https://blog.hubspot.com/marketing/hero-image)
 - Tipps on how to use Grid to create a schedule [CSS Tricks](https://css-tricks.com/building-a-conference-schedule-with-css-grid/)
+- Tipp on how to make layout with multiple columns responsive [Stackoverflow](https://stackoverflow.com/questions/56045114/flexbox-layout-with-two-columns-on-desktop-and-one-column-on-mobile)
+- Code Insitute Mentor Support 
 

@@ -40,9 +40,38 @@
     </header>
 
 
-    <!-- Signup Section -->
+    <!-- Signup Section for a first Trial Yoga class-->
     <section>
-        This is the signup section.
+      
+        <div id="signup-image">
+            This is the signup image
+            
+            <!-- add a form to drop details  -->
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <h2>Sign Up for your first class!</h2>
+
+                <label for="fname">Name</label>
+                <input id="fname" class="text-input" name="name" type="text" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" class="text-input" id="email" name="email_address" required>
+
+                <label for="date">Date</label>
+                <input type="date" class="date-input" id="date" name="class_date" required>
+                
+                <label for="beginner">Beginner Yoga</label>
+                <input type="radio" id="beginner" name="selected_class" value="beginner" required>
+                <label for="vinyasa">Vinyasa Yoga</label>
+                <input type="radio" id="vinyasa" name="selected_class" value="vinyasa" required>
+                <label for="ashtanga">Ashtanga Yoga</label>
+                <input type="radio" id="ashtanga" name="selected_class" value="ashtanga" required>
+                
+                <input class="join-button" type="submit" value="Sign up!">
+
+            </form>
+
+                
+        </div>
     </section>
 
     <!--Footer-->
