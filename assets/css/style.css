@@ -165,7 +165,8 @@ section {
     display: flex wrap;
     flex-direction: column;
     padding: 0 10px;
-    background-color: rgba(219,189,171,.1);
+    /* background-color: rgba(219,189,171,.1); */
+    background-color: rgba(122,147,127,.1);
 }
 
 /* on mobile, all of the days fall in one column. So, we don't need to take care of its grid position and can just align them. */
