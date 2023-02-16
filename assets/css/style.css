@@ -395,7 +395,7 @@ footer  p {
 .classes-container {
     display: flex ;
     flex-direction: column;
-    /* height: 600px; */
+    max-width: 600px;
 } 
 
 .classes-item {
@@ -489,11 +489,39 @@ i + i {
 /* make classes page responsive :  column on mobile screen and two columns on desktop screens÷ */
 #flexContainer {
     display:block;
+    margin: 0 auto;
+    
 }
 
-@media only screen and (min-width: 1024px) {
+/* make classes page responsive : for tablet size and small desktops÷ */
+@media only screen and (min-width: 600px) {
+    .classes-container {
+        max-width: 1200px;
+    }
+}
+
+/* make classes page responsive : for large displays i.e. desktops split the view in two columns */
+@media only screen and (min-width: 1200px) {
+
+    .classes-container {
+        max-width: 600px;
+    }
+
+
     #flexContainer {
       display: flex;
-      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
     }
+
+    /* since we are displaying in this case with two colums, use the smaller image from mobile screen again */
+    #beginner-image {
+        background: url("/assets/images/beginner-800-1200-mobile.jpg") no-repeat center center;
+    }
+    
+    #vinyasa-image {
+        background: url("/assets/images/vinyasa-movile.jpg") no-repeat center center;
+    }
+
   }
