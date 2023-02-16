@@ -298,15 +298,20 @@ h2, h3, h4, h5, h6 {
 #map {
     display: block;
     width: 90%;
+    height: 300px;
+
     justify-content: stretch;
     align-content: stretch;
 } 
 
 /* if desktop screen, display address next to the map  */
 @media only screen and (min-width: 768px) {
-    flex-direction: row;
+    .contact-container {
+        flex-direction: row;
+    }
 
     #map {
-        width: 50%;
+        height: 400px;
+        width: 100%;
     }
 }
