@@ -180,10 +180,20 @@ section {
     margin-bottom: 25px;
 }
 
+.ethos-border {
+    border-width: 140px;
+    border-style: none none solid none  ;
+    border-color:  #BBA79D  ; 
+}
+
 /* change display of ethos on larger screens  */
 @media only screen and (min-width: 768px) {
     .studio-ethos h2 {
     font-size: 38px;
+    }
+
+    .ethos-border {
+        border-width: 200px;
     }
 }
 
