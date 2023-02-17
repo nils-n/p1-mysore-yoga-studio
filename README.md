@@ -221,7 +221,13 @@ Add here a link to the [TESTING.md (PLACEHOLDER)](#testing) file.
 ## Credits 
 
 ### Code Used
-- Shields.io
+
+- Github badges from [Shields.io](https://shields.io/)
+- Tips for Sticky Headers [dev.to/akhilarjun](https://dev.to/akhilarjun/one-line-sticky-header-using-css-5gp3)
+- Flexbox Navigation Bar example from Code Institute  [Slack](https://slack.com/) Channel  (Sean_ci, "How to easily create a Navigation Menu with Flexbox", 16th Feb 2022)
+- Tipps how to style Hero image [Link To Website](https://blog.hubspot.com/marketing/hero-image)
+- Tipps on how to use Grid to create a schedule [CSS Tricks](https://css-tricks.com/building-a-conference-schedule-with-css-grid/)
+- Tipp on how to make layout with multiple columns responsive [Stackoverflow](https://stackoverflow.com/questions/56045114/flexbox-layout-with-two-columns-on-desktop-and-one-column-on-mobile)
 
 ### Content 
 
@@ -240,9 +246,5 @@ All of the content was written by myself and is fictionary and has no reference 
     - RODNAE Productions (Photographer)
     - Yan Krukau (Photographer)
 - Wireframes from [Balsamic](https://balsamiq.com/) 
-- Flexbox Navigation Bar example from Code Institute  [Slack](https://slack.com/) Channel  (Sean_ci, "How to easily create a Navigation Menu with Flexbox", 16th Feb 2022)
-- Tipps how to style Hero image [Link To Website](https://blog.hubspot.com/marketing/hero-image)
-- Tipps on how to use Grid to create a schedule [CSS Tricks](https://css-tricks.com/building-a-conference-schedule-with-css-grid/)
-- Tipp on how to make layout with multiple columns responsive [Stackoverflow](https://stackoverflow.com/questions/56045114/flexbox-layout-with-two-columns-on-desktop-and-one-column-on-mobile)
 - Code Insitute Mentor Support 
 
