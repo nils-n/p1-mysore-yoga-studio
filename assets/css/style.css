@@ -4,7 +4,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-
+    scroll-behavior: smooth;
 }
 
 /* styling of the navigation elements */
@@ -12,22 +12,53 @@
     display: flex;
     list-style: none;
     flex-wrap: nowrap;
-    height: 100px;
-    background-color: rgba(219, 189, 171, .1);
-
+    height: 50px;
+    justify-content: space-around;
 }
 
-.main-nav>li {
+ .main-nav > li {
     align-self: center;
-    padding: 10px 15px;
+    padding: 5px 15px;
+} 
+
+nav h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+nav a {
+    text-align: center;
+    font-size: 0.8rem;
 }
 
 .push {
     margin-left: auto;
-}
+} 
 
 .no-wrap {
     flex-shrink: 0;
+} 
+
+.nav-background{
+    background-color: white;
+}
+
+/* make navigation bar stick to top of screen */
+header {
+    position: sticky; 
+    top: 0;
+    z-index: 999;
+}
+
+/* increase size of navigation elements on desktop screens */
+@media only screen and (min-width: 768px) {
+    nav a {
+        font-size: 1rem;
+    }
+    nav h1 {
+        font-size: 1rem;
+    }
 }
 
 /* These are the imported fonts from google fonts  */
