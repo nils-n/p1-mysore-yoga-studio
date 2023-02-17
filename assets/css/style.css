@@ -74,12 +74,10 @@ body {
     flex-direction: column;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Lato', sans-serif;
 }
 
-h2,
-h3,
 h4,
 h5,
 h6 {
@@ -151,7 +149,6 @@ section {
     #hero-text p {
         font-size: 1.5rem;
         font-weight: 300;
-
     }
     
     #hero-text button {
@@ -161,43 +158,34 @@ section {
 }
 
 /* style elements for the studio ethos */
-#studio-ethos {
+.studio-ethos {
     height: 600px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-
 }
 
-#ethos-background {
-    height: 600px;
-    background-color: #DBBDAB;
-    opacity: 10%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 700px;
+.ethos-item{
+    align-self: center;
+    width: 90%;
+    height: 150px;
 }
 
-#studio-ethos>div {
-    line-height: 140%;
-    padding: 20px 0;
+.studio-ethos h2 {
+    font-size: 30gitpx;
+    margin-bottom: 25px;
 }
 
-#studio-ethos h1 {
-    font-weight: bold;
+/* change display of ethos on larger screens  */
+@media only screen and (min-width: 768px) {
+    .studio-ethos h2 {
+    font-size: 38px;
+    }
 }
-
-#studio-ethos p {
-    margin-top: 20px;
-    text-align: left;
-}
-
 
 /* schedule is a flexbox in a mobile setting and a grid in a desktop display*/
 .schedule {
