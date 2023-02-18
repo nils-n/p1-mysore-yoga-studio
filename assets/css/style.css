@@ -93,7 +93,7 @@ h6 {
 /* add hero image section for mobile  */
 .hero-image {
     width: 100%;
-    background: url("/assets/images/hero-image-mobile.jpg") no-repeat center center;
+    background: url("../images/hero-image-mobile.jpg") no-repeat center center;
     display: flex;
     position: relative;
     justify-content: center;
@@ -194,7 +194,7 @@ h6 {
 @media only screen and (min-width: 768px) {
     #hero-image {
         width: 100%;
-        background: url("/assets/images/hero-image-wide.jpg") no-repeat center center;
+        background: url("../images/hero-image-wide.jpg") no-repeat center center;
     }
 
     #hero-text h1 {
@@ -554,29 +554,29 @@ i+i {
 }
 
 #beginner-image {
-    background: url("/assets/images/beginner-800-1200-mobile.jpg") no-repeat center center;
+    background: url("../images/beginner-800-1200-mobile.jpg") no-repeat center center;
 }
 
 #vinyasa-image {
-    background: url("/assets/images/vinyasa-movile.jpg") no-repeat center center;
+    background: url("../images/vinyasa-movile.jpg") no-repeat center center;
 }
 
 #ashtanga-image {
-    background: url("/assets/images/asthanga-mobile.jpg") no-repeat center center;
+    background: url("../images/asthanga-mobile.jpg") no-repeat center center;
 }
 
 #beginner-image-small {
-    background: url("/assets/images/alaistar-small.jpg") no-repeat center center;
+    background: url("../images/alaistar-small.jpg") no-repeat center center;
     background-size: 200px;
 }
 
 #vinyasa-image-small {
-    background: url("/assets/images/beginner-2-small.jpg") no-repeat center center;
+    background: url("../images/beginner-2-small.jpg") no-repeat center center;
     background-size: 200px;
 }
 
 #ashtanga-image-small {
-    background: url("/assets/images/jean-teacher.jpg") no-repeat center center;
+    background: url("../images/jean-teacher.jpg") no-repeat center center;
     background-size: 200px;
 }
 
@@ -593,17 +593,17 @@ i+i {
     #beginner-image {
         height: 550px;
         width: 100%;
-        background: url("/assets/images/beginner-large-screen.jpg") no-repeat center center;
+        background: url("../images/beginner-large-screen.jpg") no-repeat center center;
     }
 
     #vinyasa-image {
         height: 550px;
         width: 100%;
-        background: url("/assets/images/vinyasa-wide.jpg") no-repeat center center;
+        background: url("../images/vinyasa-wide.jpg") no-repeat center center;
     }
 
     #ashtanga-image {
-        background: url("/assets/images/ashtange-wide.jpg") no-repeat center center;
+        background: url("../images/ashtange-wide.jpg") no-repeat center center;
     }
 
 
@@ -639,17 +639,17 @@ i+i {
 
     /* since we are displaying in this case with two colums, use the smaller image from mobile screen again */
     #beginner-image {
-        background: url("/assets/images/beginner-800-1200-mobile.jpg") no-repeat center center;
+        background: url("../images/beginner-800-1200-mobile.jpg") no-repeat center center;
     }
 
     #vinyasa-image {
-        background: url("/assets/images/vinyasa-movile.jpg") no-repeat center center;
+        background: url("../images/vinyasa-movile.jpg") no-repeat center center;
     }
 }
 
 /* style the signup html page  */
 #signup-image {
-    background: url("/assets/images/signup-mobile.jpg") no-repeat center center;
+    background: url("../images/signup-mobile.jpg") no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -660,7 +660,7 @@ i+i {
 /* style signup page for larger displays  */
 @media only screen and (min-width: 768px) {
     #signup-image {
-        background: url("/assets/images/signup-wide.jpg") no-repeat center center;
+        background: url("../images/signup-wide.jpg") no-repeat center center;
 
     }
 }
