@@ -149,6 +149,11 @@ p{
     grid-auto-flow: row;
     gap: 2em;
     margin: 2rem 2rem;
+    justify-content: center;
+    justify-self: center;
+    margin-left: 5vb;
+    margin-right: 5vb;
+ 
 }
 
 .grid-item {
@@ -196,6 +201,14 @@ p{
     width: 60%;
     border-radius: 5px;
 }
+
+/* on larger screens, leave a larger white gap on the side of the screen */
+@media only screen and (min-width: 1200px) {
+        .grid-container {
+            margin-left: 20vb;
+            margin-right: 20vb;
+        }
+    }
 
 /* add a scrolling effect to the different sections to have a static background */
 .box {
