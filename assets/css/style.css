@@ -154,8 +154,6 @@ p{
     padding-bottom: 40px; */
 }
 
-
-
 .ethos-section h2 {
     padding: 60px 0 40px;
     font-size: 180%;
@@ -164,6 +162,11 @@ p{
 
 .ethos-section p {
     line-height: 2;
+    color: rgb(141, 140, 140);
+}
+
+.ethos-section i {
+    color: rgb(141, 140, 140);
 }
 
 
