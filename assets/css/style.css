@@ -19,6 +19,8 @@ body {
     flex-wrap: nowrap;
     height: 50px;
     justify-content: space-around;
+    overflow: hidden
+
 }
 
 .main-nav>li {
@@ -51,9 +53,10 @@ nav a {
 
 /* make navigation bar stick to top of screen */
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 999;
+    width: 100%;
 }
 
 /* increase size of navigation elements on desktop screens */
@@ -86,7 +89,7 @@ h6 {
     font-family: 'Oswald', sans-serif;
 }
 
-p{
+p {
     max-width: 60ch;
 }
 
@@ -182,7 +185,7 @@ p{
     justify-self: center;
     margin-left: 5vb;
     margin-right: 5vb;
- 
+
 }
 
 .grid-item {
@@ -195,7 +198,7 @@ p{
     line-height: 1.7;
 }
 
-.grid-item > * {
+.grid-item>* {
     margin: 0 2rem;
 }
 
@@ -208,12 +211,15 @@ p{
 .studio-item-1 {
     background-color: #54433A;
 }
+
 .studio-item-2 {
     background-color: #7A937F;
 }
+
 .studio-item-3 {
     background-color: #dbdbdb;
 }
+
 .studio-item-4 {
     background-color: #f16c6b;
 }
@@ -233,11 +239,11 @@ p{
 
 /* on larger screens, leave a larger white gap on the side of the screen */
 @media only screen and (min-width: 1200px) {
-        .grid-container {
-            margin-left: 20vb;
-            margin-right: 20vb;
-        }
+    .grid-container {
+        margin-left: 20vb;
+        margin-right: 20vb;
     }
+}
 
 /* add a scrolling effect to the different sections to have a static background */
 .box {
@@ -439,8 +445,6 @@ p{
 .day {
     display: block;
     padding: 20px 5px 15px;
-    top: 0;
-    z-index: 1000;
     background-color: rgba(219, 189, 171, .1);
 
 }
