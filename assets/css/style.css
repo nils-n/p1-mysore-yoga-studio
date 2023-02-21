@@ -410,10 +410,10 @@ p{
 
 /* schedule is a flexbox in a mobile setting and a grid in a desktop display*/
 .schedule {
+    margin: 20px 40px;
     display: flex wrap;
     flex-direction: column;
     padding: 0 10px;
-    /* background-color: rgba(219,189,171,.1); */
     background-color: rgba(122, 147, 127, .1);
 }
 
@@ -438,8 +438,7 @@ p{
 /* flex item of the current day - this should be just above the daily schedule on a mobile display */
 .day {
     display: block;
-    padding: 10px 5px 5px;
-    position: sticky;
+    padding: 20px 5px 15px;
     top: 0;
     z-index: 1000;
     background-color: rgba(219, 189, 171, .1);
