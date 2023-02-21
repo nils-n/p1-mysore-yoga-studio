@@ -664,7 +664,6 @@ footer p {
 /* making a sticky footer with flex -> whole body is a flexbox in column direction */
 .footer {
     flex-shrink: 0;
-    padding: 20px;
 }
 
 .content {
