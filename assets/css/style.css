@@ -166,13 +166,14 @@ p {
 .ethos-section p {
     line-height: 2;
     color: rgb(141, 140, 140);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ethos-section i {
     color: rgb(141, 140, 140);
 }
-
-
 
 /* rearrange the ethos and schedule section */
 .grid-container {
@@ -217,11 +218,8 @@ p {
 }
 
 .studio-item-3 {
-    background-color: #dbdbdb;
-}
-
-.studio-item-4 {
     background-color: #f16c6b;
+    font-size: 200%;
 }
 
 .grid-item button {
