@@ -206,6 +206,50 @@ p {
 }
 
 
+/* section with grid of links and images that link to the other pages  */
+.sections-flexbox {
+    display:flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0 20px;
+    flex-direction: column; 
+    flex-wrap: wrap;
+}
+
+/* for larger screens, switch to a row layout */
+@media ( min-width: 600px){
+    .sections-flexbox {
+        flex-direction: row;
+    }
+}
+
+/* for very large screens, add some white space (padding) on the sides */
+@media ( min-width: 1200px){
+    .sections-flexbox {
+        padding: 0 20%;
+    }
+}
+
+.sections-flexbox-item {
+    flex: 1;
+    border: 10px solid greenyellow;
+    align-items: flex-start;
+    height: 200px;
+
+}
+
+.sections-flexbox-item:nth-child(3) {
+    background-color: #f16c6b;
+}
+
+/* image that helps the user find the page or information that he was looking for */
+.sections-img {
+    background: url("../images/hero-image-mobile.jpg") no-repeat center center; 
+    background-size: cover ;
+    width: 100%;
+    height: 50px;
+}
+
 /* rearrange the ethos and schedule section */
 .grid-container {
     display: grid;
