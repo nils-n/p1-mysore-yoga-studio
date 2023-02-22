@@ -247,5 +247,6 @@ All of the content was written by myself and is fictionary and has no reference 
     - RODNAE Productions (Photographer)
     - Yan Krukau (Photographer)
 - Wireframes from [Balsamic](https://balsamiq.com/) 
+- Kevin Powell's [Youtube](https://www.youtube.com/@KevinPowell) Channels for using Flexbox and Grid 
 - Code Insitute Mentor Support 
 
