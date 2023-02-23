@@ -227,6 +227,7 @@ p {
 .classes-preview-section h1 {
     font-size: 180%;
     padding: 2.5rem 0;
+    text-align: center;
 }
 
 .classes-preview-section>a {
@@ -241,7 +242,21 @@ p {
     flex-direction: column;
     width: 100%;
     gap: 2rem;
+    padding-bottom: 1.5rem;
+    align-self: center;
+    max-width: 500px;
+
+}
+
+ .classes-preview-flexbox a {
+    align-self: center;
+    width: 100%;
+} 
+
+
+.classes-preview-flexbox:last-child {
     padding-bottom: 5rem;
+
 }
 
 .classes-preview-details {
@@ -249,10 +264,11 @@ p {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    align-self: center;
+    justify-self: center;
     height: 300px;
     width: 100%;
     align-self: center;
-    max-width: 400px;
     line-height: 1.5;
     color:white;
     padding-bottom: 0.5rem;
@@ -263,10 +279,29 @@ p {
     font-size: 180%;
 }
 
-.classes-preview-details:nth-child(1) {
+.classes-background-1:nth-child(1) {
     background-image:
         linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
         url("../images/classes-1-small.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.classes-background-2:nth-child(1) {
+    background-image:
+        linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
+        url("../images/classes-2-small.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.classes-background-3:nth-child(1) {
+    background-image:
+        linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
+        url("../images/classes-3-small.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .classes-time-flex {
