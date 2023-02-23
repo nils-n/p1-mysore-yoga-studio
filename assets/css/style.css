@@ -242,10 +242,9 @@ p {
     flex-direction: column;
     width: 100%;
     gap: 2rem;
-    padding-bottom: 1.git 5rem;
+    padding: 0.5rem 0;
     align-self: center;
     max-width: 500px;
-
 }
 
  .classes-preview-flexbox a {
@@ -253,10 +252,8 @@ p {
     width: 100%;
 } 
 
-
 .classes-preview-flexbox:last-child {
     padding-bottom: 5rem;
-
 }
 
 .classes-preview-details {
@@ -285,7 +282,6 @@ p {
         url("../images/classes-1-small.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-
 }
 
 .classes-background-2:nth-child(1) {
@@ -310,9 +306,6 @@ p {
     justify-content: center;
     gap: 2rem;
     width: 100%;
-
-    /* flex-direction: row;
-    flex */
 }
 
 /* style and function of the buttons  */
