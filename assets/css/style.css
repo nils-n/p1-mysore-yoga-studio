@@ -198,14 +198,13 @@ p {
     flex-direction: column;
     text-align: center;
     gap: 2rem;
-    padding: 5rem 1rem;
+    padding: 2.5rem 1rem;
     align-items: center;
     color: white;
-    line-height: 2;
+    line-height: 1.6;
     /* background: linear-gradient(89.17deg, #54433A 0.62%, rgba(187, 167, 156, 0.57) 99.25%); */
     background: linear-gradient(178.2deg, #54433A 1.52%, rgba(187, 167, 156, 0.57) 98.45%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    
 }
 
 .motivate-button {
@@ -216,6 +215,70 @@ p {
     background-color: #AFC9B4;
 }
 
+
+/* section with the preview and links to the classes  */
+.classes-preview-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+
+}
+
+.classes-preview-section h1 {
+    font-size: 180%;
+    padding: 2.5rem 0;
+}
+
+.classes-preview-section>a {
+    align-self: center;
+    width: 90%;
+
+}
+
+/* flexbox where the three yoga classes are living in */
+.classes-preview-flexbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    padding-bottom: 5rem;
+}
+
+.classes-preview-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    align-self: center;
+    max-width: 400px;
+    line-height: 1.5;
+    color:white;
+    padding-bottom: 0.5rem;
+}
+
+.classes-preview-details h2 {
+    padding: 1.1rem 0;
+    font-size: 180%;
+}
+
+.classes-preview-details:nth-child(1) {
+    background-image:
+        linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%),
+        url("../images/classes-1-small.jpg");
+}
+
+.classes-time-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+
+    /* flex-direction: row;
+    flex */
+}
 
 /* style and function of the buttons  */
 .options-button {
@@ -278,7 +341,6 @@ p {
     border: 10px solid greenyellow;
     align-items: flex-start;
     height: 200px;
-
 }
 
 .sections-flexbox-item:nth-child(3) {
