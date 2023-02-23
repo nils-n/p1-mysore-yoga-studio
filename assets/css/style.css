@@ -17,8 +17,7 @@ body {
     display: flex;
     list-style: none;
     flex-wrap: nowrap;
-    height: 50px;
-    justify-content: space-around;
+    justify-content: center;
     overflow: hidden
 
 }
@@ -28,10 +27,11 @@ body {
     padding: 5px 15px;
 }
 
-nav h1 {
+.nav-background h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1.25rem;
+    padding-top: 1rem;
 }
 
 nav a {
@@ -39,12 +39,9 @@ nav a {
     font-size: 0.8rem;
 }
 
-.push {
-    margin-left: auto;
-}
-
 .no-wrap {
     flex-shrink: 0;
+    padding: 0.5rem 0.5rem;
 }
 
 .nav-background {
