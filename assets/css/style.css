@@ -259,6 +259,9 @@ p {
     display: flex;
     flex-direction: column;
     padding: 0 1rem;
+    max-width: 1400px;
+    justify-self: center;
+    margin: 0 auto;
 }
 
 .preview-section h2 {
@@ -296,8 +299,6 @@ p {
     .preview-item {
         max-width: 400px;
     }
-
-
 }
 
 /* flexbox where the three yoga classes are living in */
@@ -318,14 +319,16 @@ p {
     }
 }
 
+@media only screen and (min-width: 1000px) {
+    .preview-item {
+        max-width: 420px;
+    }
+}
+
 .preview-item a {
     align-self: center;
     width: 100%;
 }
-
-/* .preview-item:last-child {
-    padding-bottom: 5rem;
-} */
 
 .columnar-flexbox {
     display: flex;
