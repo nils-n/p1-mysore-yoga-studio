@@ -631,7 +631,7 @@ p {
 /* styling of the footer  */
 footer {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     text-transform: uppercase;
     text-align: center;
     background-color: #AFC9B4;
