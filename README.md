@@ -179,6 +179,15 @@ Wireframes were generated using [Balsamic Wireframe](https://balsamiq.com/) for 
 
 ## Technologies Used 
 
+- GitPod as IDE
+- Git / GitHub  for Version Control
+- Figma for Wireframs 
+- Mac OS Image Preview Tool for cropping and resizing Images 
+- Google Maps for display of a GPS location
+- Favicon for making a browser Icon
+- W3 Validation Tools for Testing
+- Shields.io for adding badges this Readme file 
+
 ### Languages Used
 
 - HTML 
@@ -247,6 +256,10 @@ All of the content was written by myself and is fictionary and has no reference 
     - RODNAE Productions (Photographer)
     - Yan Krukau (Photographer)
 - Wireframes from [Balsamic](https://balsamiq.com/) 
-- Kevin Powell's [Youtube](https://www.youtube.com/@KevinPowell) Channels for using Flexbox and Grid 
+- Kevin Powell's excellent [Youtube](https://www.youtube.com/@KevinPowell) Videos: 
+    - How to approach a design layout with Figma [Youtube Link](https://youtu.be/KYFwcIRx16g)
+    - Tips for CSS flexbox [ Youtube Link](https://youtu.be/rg7Fvvl3taU) and  [ Youtube Link](https://youtu.be/JnTPd9G6hoY)
+    - More Tricks for flexbox and grod [Youtube Link](https://youtu.be/JHregeIsjPQ)
+    - How to move from Figma to CSS [Youtube Link](https://youtu.be/NB1mn2YVF8Q)
 - Code Insitute Mentor Support 
 
