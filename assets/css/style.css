@@ -15,14 +15,14 @@ body {
 /* define colors that you will use througout this page */
 /*   The dard brown color (#54433A) is the primary color on which the others are based on mycolor.space  */
 :root {
-    --color-dark-brown: #54433A;  
+    --color-dark-brown: #54433A;
     --color-light-brown: #DBBDAB;
     --color-light-green: #AFC9B4;
     --color-dark-green: #7A937F;
     --color-spot-green: #00C9AA;
     --color-squash-purple: #7A5174;
     --color-natural-orange: #DA763A;
-  }
+}
 
 /* styling of the navigation elements */
 .main-nav {
@@ -244,8 +244,8 @@ p {
 
 .motivate-button {
     color: white;
-    border: 4px solid  white;
-    background-color:var(--color-squash-purple);
+    border: 4px solid white;
+    background-color: var(--color-squash-purple);
 }
 
 .motivate-button:hover {
@@ -270,6 +270,33 @@ p {
 .preview-section>a {
     align-self: center;
     width: 90%;
+}
+
+/* for mobile screens, stack on on top of each other */
+.responsive-preview {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .responsive-preview {
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-width: 200px;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .responsive-preview >* {
+        align-self: center;
+    }
+
+    .preview-item {
+        max-width: 400px;
+    }
+
 
 }
 
@@ -284,14 +311,21 @@ p {
     max-width: 500px;
 }
 
- .preview-item a {
+/* on larger screens make the classes boxes a little smaller */
+@media only screen and (min-width: 800px) {
+    .preview-item {
+        max-width: 350px;
+    }
+}
+
+.preview-item a {
     align-self: center;
     width: 100%;
-} 
-
-.preview-item:last-child {
-    padding-bottom: 5rem;
 }
+
+/* .preview-item:last-child {
+    padding-bottom: 5rem;
+} */
 
 .columnar-flexbox {
     display: flex;
@@ -304,7 +338,7 @@ p {
     width: 100%;
     align-self: center;
     line-height: 1.5;
-    color:white;
+    color: white;
     padding-bottom: 0.5rem;
 }
 
@@ -348,8 +382,9 @@ p {
 /* specific style of the prices flexbox   */
 
 .prices {
-    max-width: 300px; 
+    max-width: 300px;
 }
+
 .prices-background-1 {
     background-color: var(--color-natural-orange);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
@@ -379,7 +414,7 @@ p {
 
 .prices-outer-layout i {
     font-size: 300%;
-    color: rgb(193, 193, 193); 
+    color: rgb(193, 193, 193);
     padding-top: 1rem;
 
 
