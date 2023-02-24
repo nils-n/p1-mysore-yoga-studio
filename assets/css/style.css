@@ -468,11 +468,12 @@ p {
 
 /* schedule is a flexbox in a mobile setting and a grid in a desktop display*/
 .schedule {
-    margin: 20px 40px;
+    margin: 20px 20px;
     display: flex wrap;
     flex-direction: column;
     padding: 0 10px;
     background-color: rgba(122, 147, 127, .1);
+    max-width: 1000px;
 }
 
 /* on mobile, all of the days fall in one column. So, we don't need to take care of its grid position and can just align them. */
@@ -506,6 +507,7 @@ p {
     .schedule {
         display: grid;
         grid-gap: 1rem;
+        margin: 0 auto;
         grid-template-rows:
             [days] auto [time-0800] 1fr [time-0830] 1fr [time-0900] 1fr [time-0930] 1fr [time-1000] 1fr [time-1030] 1fr [time-1100] 1fr [time-1130] 1fr [time-1200] 1fr;
         grid-template-columns:
@@ -618,9 +620,8 @@ p {
     padding: .5em;
     border-radius: 2px;
     font-size: 15px;
-    box-shadow:
-        rgba(255, 255, 255, .6) 1px 1px 0,
-        rgba(0, 0, 0, .3) 4px 4px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
 }
 
 .class-title,
@@ -864,8 +865,6 @@ i+i {
     #ashtanga-image {
         background: url("../images/ashtange-wide.jpg") no-repeat center center;
     }
-
-
 }
 
 /* styling for classes page  */
@@ -877,6 +876,10 @@ i+i {
     min-height: 200px;
     margin-top: 85px;
 
+}
+
+.page-header i {
+    color: var(--color-spot-green);
 }
 
 /* make classes page responsive :  column on mobile screen and two columns on desktop screens÷ */
