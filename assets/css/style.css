@@ -22,6 +22,7 @@ body {
     --color-spot-green: #00C9AA;
     --color-squash-purple: #7A5174;
     --color-natural-orange: #DA763A;
+    --color-skip-grad-red: #F1797F;
 }
 
 /* styling of the navigation elements */
@@ -30,7 +31,8 @@ body {
     list-style: none;
     flex-wrap: nowrap;
     justify-content: center;
-    overflow: hidden
+    overflow: hidden;
+    gap: 0;
 }
 
 .main-nav>li {
@@ -47,16 +49,31 @@ body {
 
 nav a {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: var(--color-natural-orange)
 }
 
 .no-wrap {
     flex-shrink: 0;
-    padding: 0.5rem 0.5rem;
+    padding: 2px 0.5rem;
 }
 
 .nav-background {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
+}
+
+
+/* styling of the logo */
+.nav-background img { 
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 50%;
+    min-width: 180px ;
+    max-width: 250px;
 }
 
 /* make navigation bar stick to top of screen */
@@ -69,6 +86,11 @@ header {
 
 /* increase size of navigation elements on desktop screens */
 @media only screen and (min-width: 768px) {
+
+    .main-nav { 
+        gap: 5rem;
+
+    }
     nav a {
         font-size: 1rem;
     }
@@ -110,13 +132,12 @@ p {
 /* add hero image section for mobile  */
 .image {
     display: flex;
-    margin-top: 85px;
+    margin-top: 66px;
     min-height: 600px;
     background-color: var(--color-light-green);
     justify-content: center;
     align-items: flex-start;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
-
 }
 
 .hero-image {
@@ -260,6 +281,7 @@ p {
     flex-direction: column;
     justify-content: center;
     margin: auto;
+    font-size: 120%;
 }
 
 .ethos-section h2 {
@@ -913,7 +935,7 @@ i+i {
     align-items: center;
     justify-content: center;
     min-height: 200px;
-    margin-top: 85px;
+    margin-top: 66px;
 
 }
 
