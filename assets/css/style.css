@@ -868,11 +868,25 @@ i+i {
 
 }
 
+/* styling for classes page  */
+.page-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    margin-top: 85px;
+
+}
+
 /* make classes page responsive :  column on mobile screen and two columns on desktop screens÷ */
 #flexContainer {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
     margin: 0 auto;
-
+    width: 90%;
+    padding-bottom: 4rem;
 }
 
 /* make classes page responsive : for tablet size and small desktops÷ */
@@ -886,7 +900,7 @@ i+i {
 @media only screen and (min-width: 1200px) {
 
     .classes-container {
-        max-width: 600px;
+        max-width: 500px;
     }
 
     #flexContainer {
