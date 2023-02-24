@@ -254,26 +254,26 @@ p {
 }
 
 /* section with the preview and links to the classes  */
-.classes-preview-section {
+.preview-section {
     display: flex;
     flex-direction: column;
     padding: 0 1rem;
 }
 
-.classes-preview-section h1 {
+.preview-section h2 {
     font-size: 180%;
     padding: 2.5rem 0;
     text-align: center;
 }
 
-.classes-preview-section>a {
+.preview-section>a {
     align-self: center;
     width: 90%;
 
 }
 
 /* flexbox where the three yoga classes are living in */
-.classes-preview-flexbox {
+.preview-item {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -283,23 +283,23 @@ p {
     max-width: 500px;
 }
 
- .classes-preview-flexbox a {
+ .preview-item a {
     align-self: center;
     width: 100%;
 } 
 
-.classes-preview-flexbox:last-child {
+.preview-item:last-child {
     padding-bottom: 5rem;
 }
 
-.classes-preview-details {
+.columnar-flexbox {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     align-self: center;
     justify-self: center;
-    height: 300px;
+    min-height: 300px;
     width: 100%;
     align-self: center;
     line-height: 1.5;
@@ -307,7 +307,7 @@ p {
     padding-bottom: 0.5rem;
 }
 
-.classes-preview-details h2 {
+.columnar-flexbox h2 {
     padding: 1.1rem 0;
     font-size: 180%;
 }
@@ -342,6 +342,16 @@ p {
     justify-content: center;
     gap: 2rem;
     width: 100%;
+}
+
+/* specific style of the prices flexbox   */
+.prices-background-1 {
+    background-color: var(--color-natural-orange);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.prices-outer-layout {
+    justify-content: space-between;
 }
 
 /* schedule is a flexbox in a mobile setting and a grid in a desktop display*/
