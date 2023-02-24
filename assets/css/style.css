@@ -12,6 +12,17 @@ body {
     height: 100%;
 }
 
+/* define colors that you will use througout this page */
+/*   The dard brown color (#54433A) is the primary color on which the others are based on mycolor.space  */
+:root {
+    --color-dark-brown: #54433A;  
+    --color-light-brown: #DBBDAB;
+    --color-light-green: #AFC9B4;
+    --color-dark-green: #7A937F;
+    --color-spot-green: #00C9AA;
+    --color-purple: #7A5174;
+  }
+
 /* styling of the navigation elements */
 .main-nav {
     display: flex;
@@ -100,7 +111,7 @@ p {
     padding: 300px 0 300px;
     /* background: url("../images/hero-image-mobile.jpg") no-repeat center center;  */
     background: url("../images/hero-mobile.jpg") no-repeat center center;
-    background-color: #AFC9B4;
+    background-color: var(--color-light-green);
     display: flex;
     position: relative;
     justify-content: center;
@@ -145,20 +156,47 @@ p {
 
 /* style the first button on hero section  */
 .hero-button-1 {
-    background-color: #AFC9B4;
+    background-color: var(--color-light-green);
 }
 
 .hero-button-1:hover {
-    background-color: #7A937F;
+    background-color: var(--color-dark-green);
 }
 
 /* style the second  button on hero section  */
 .hero-button-2 {
-    background-color: #BBA79C;
+    background-color:  var(--color-light-brown);  
 }
 
 .hero-button-2:hover {
-    background-color: #54433A;
+    background-color: var(--color-dark-brown);
+}
+
+/* change display of hero image and text on larger screens  */
+@media only screen and (min-width: 768px) {
+    .hero-image {
+        width: 100%;
+        /* background: url("../images/hero-image-wide.jpg") no-repeat center center; */
+        background-color: var(--color-light-green);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    #hero-text h1 {
+        font-weight: 400;
+        font-size: 4.5rem;
+    }
+
+    #hero-text p {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    #hero-text button {
+        font-weight: 500;
+        font-size: 120%;
+    }
+
 }
 
 /* style of ethos section */
@@ -193,7 +231,6 @@ p {
 
 /* style the area that aims to motivate new users to sign up for a free trial  */
 .motivate-to-signup-flexbox {
-    background-color: #f16c6b;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -202,26 +239,24 @@ p {
     align-items: center;
     color: white;
     line-height: 1.6;
-    /* background: linear-gradient(89.17deg, #54433A 0.62%, rgba(187, 167, 156, 0.57) 99.25%); */
-    background: linear-gradient(178.2deg, #54433A 1.52%, rgba(187, 167, 156, 0.57) 98.45%);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    background-color: #7A5174;
 }
 
 .motivate-button {
-    background-color: #7A937F;
+    color: white;
+    border: 4px solid  white;
+    background-color:var(--color-purple);
 }
 
 .motivate-button:hover {
-    background-color: #AFC9B4;
+    background-color: var(--color-light-green);
 }
-
 
 /* section with the preview and links to the classes  */
 .classes-preview-section {
     display: flex;
     flex-direction: column;
     padding: 0 1rem;
-
 }
 
 .classes-preview-section h1 {
@@ -306,317 +341,6 @@ p {
     justify-content: center;
     gap: 2rem;
     width: 100%;
-}
-
-/* style and function of the buttons  */
-.options-button {
-    border: 1px solid #54433A;
-    background-color: #DBBDAB;
-    color: white;
-    font-weight: 600;
-    font-size: 200%;
-    line-height: 1.5;
-    padding: 5px 0;
-    border-radius: 5px;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 15px 35px;
-}
-
-.options-button a {
-    color: black;
-    padding: 20px 5px;
-}
-
-.options-button:hover {
-    background-color: #54433A;
-    color: white;
-}
-
-.options-button a:hover {
-    color: white;
-}
-
-
-/* section with grid of links and images that link to the other pages  */
-.sections-flexbox {
-    display: flex;
-    gap: 1.5rem;
-    margin: 0;
-    padding: 0 20px;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-/* for larger screens, switch to a row layout */
-@media (min-width: 600px) {
-    .sections-flexbox {
-        flex-direction: row;
-    }
-}
-
-/* for very large screens, add some white space (padding) on the sides */
-@media (min-width: 1200px) {
-    .sections-flexbox {
-        padding: 0 20%;
-    }
-}
-
-.sections-flexbox-item {
-    flex: 1;
-    border: 10px solid greenyellow;
-    align-items: flex-start;
-    height: 200px;
-}
-
-.sections-flexbox-item:nth-child(3) {
-    background-color: #f16c6b;
-}
-
-/* image that helps the user find the page or information that he was looking for */
-.sections-img {
-    background: url("../images/hero-image-mobile.jpg") no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 50px;
-}
-
-/* rearrange the ethos and schedule section */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-flow: row;
-    gap: 2em;
-    margin: 2rem 2rem;
-    justify-content: center;
-    justify-self: center;
-    margin-left: 5vb;
-    margin-right: 5vb;
-
-}
-
-.grid-item {
-    background-color: #7A937F;
-    border-radius: 5px 5px;
-    padding-bottom: 50px;
-    color: white;
-    text-align: center;
-    line-height: 1.7;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-}
-
-.grid-item>* {
-    margin: 0 2rem;
-}
-
-.grid-item h2 {
-    margin: 0 2rem;
-    padding: 2rem 0;
-    font-weight: bold;
-}
-
-.studio-item-1 {
-    background-color: #54433A;
-}
-
-.studio-item-2 {
-    background-color: #7A937F;
-}
-
-.studio-item-3 {
-    background-color: #f16c6b;
-    font-size: 200%;
-}
-
-.grid-item button {
-    background-color: #AFC9B4;
-    border: 0;
-    color: white;
-    font-weight: 500;
-    font-size: 100%;
-    line-height: 1;
-    margin-top: 1.5rem;
-    padding: 1rem;
-    width: 60%;
-    border-radius: 5px;
-}
-
-/* on larger screens, leave a larger white gap on the side of the screen */
-@media only screen and (min-width: 1200px) {
-    .grid-container {
-        margin-left: 20vb;
-        margin-right: 20vb;
-    }
-}
-
-/* add a scrolling effect to the different sections to have a static background */
-.box {
-    width: 100%;
-    padding-top: 300px;
-    padding-bottom: 300px;
-    /* height: 600px; */
-}
-
-.section-separator {
-    height: 100px;
-    background: #7A937F;
-    color: white;
-    background-size: 20px 20px;
-    background-image: repeating-linear-gradient(to right, white, white 1px, #7A937F 1px, #7A937F);
-
-}
-
-.section-2 {
-    /* background-color: #7A937F; */
-    color: #54433A;
-}
-
-.section-3 {
-    width: 100%;
-    /* background: url("../images/schedule-medium.jpg") no-repeat center center; */
-    /* background: url("../images/hero-image-mobile.jpg") no-repeat center center; */
-    background-color: #7A937F;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    /* ba#ckground-size: cover; */
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
-    width: 100%;
-    padding-top: 150px;
-    padding-bottom: 150px;
-}
-
-.section-3 h2 {
-    color: white;
-    font-size: 2.5rem;
-    text-align: center;
-    padding: 10px 0 20px;
-
-}
-
-.section-3 p {
-    padding: 10px 0 20px;
-    color: white;
-    font-size: 1.0rem;
-}
-
-.section-4 {
-    /* background: url("../images/schedule-medium.jpg") no-repeat center center; */
-    /* background: url("../images/hero-image-mobile.jpg") no-repeat center center; */
-    background-color: #54433A;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    align-self: center;
-}
-
-.section-4 h2 {
-    color: white;
-    font-size: 2.5rem;
-    text-align: center;
-    padding: 10px 0 20px;
-
-}
-
-.section-5 {
-    width: 100%;
-    background-color: #f16c6b;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
-    width: 100%;
-    padding-top: 150px;
-    padding-bottom: 150px;
-}
-
-.section-5 h2 {
-    color: white;
-    font-size: 2.5rem;
-    text-align: center;
-    padding: 10px 0 20px;
-
-}
-
-.section-5 p {
-    padding: 10px 0 20px;
-    color: white;
-    font-size: 1.0rem;
-}
-
-/* change display of hero image and text on larger screens  */
-@media only screen and (min-width: 768px) {
-    .hero-image {
-        width: 100%;
-        /* background: url("../images/hero-image-wide.jpg") no-repeat center center; */
-        background-color: #AFC9B4;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-
-    #hero-text h1 {
-        font-weight: 400;
-        font-size: 4.5rem;
-    }
-
-    #hero-text p {
-        font-size: 1.5rem;
-        font-weight: 300;
-    }
-
-    #hero-text button {
-        font-weight: 500;
-        font-size: 120%;
-    }
-
-    .section-3 {
-        /* background: url("../images/hero-image-wide.jpg") no-repeat center center; */
-        background-color: #7A937F;
-
-    }
-}
-
-/* this class arranges the buttons and summaries of the individual classes on the main page */
-.overview-grid-container {
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
-    height: 200px;
-}
-
-/* change display of ethos on larger screens  */
-@media only screen and (min-width: 768px) {
-
-    /* on a larger screen, display the available classes in three columns : so it can have less height */
-    .studio-ethos {
-        height: 400px;
-    }
-
-    /* arrange the class items as columns */
-    .overview-grid-container {
-        grid-auto-flow: row;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    }
-
-    .studio-ethos h2 {
-        font-size: 38px;
-    }
-
-    .ethos-border {
-        border-width: 200px;
-    }
 }
 
 /* schedule is a flexbox in a mobile setting and a grid in a desktop display*/
