@@ -47,7 +47,33 @@
     <!-- Signup Section for a first Trial Yoga class-->
 
     <section>
-        <div class="image signup-image">This is a background umage</div>
+        <div class="image signup-image">
+
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+
+
+            <label for="fname">Name</label>
+            <input id="fname" class="text-input" name="name" type="text" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" class="text-input" id="email" name="email_address" required>
+
+
+            <label for="date">Date</label>
+            <input type="date" class="date-input" id="date" name="class_date" required>
+            
+            <label for="beginner">Beginner Yoga</label>
+            <input type="radio" id="beginner" name="selected_class" value="beginner" required>
+            <br />
+            <label for="vinyasa">Vinyasa Yoga</label>
+            <input type="radio" id="vinyasa" name="selected_class" value="vinyasa" required>
+            <br />
+            <label for="ashtanga">Ashtanga Yoga</label>
+            <input type="radio" id="ashtanga" name="selected_class" value="ashtanga" required>
+
+        </form>
+
+        </div>
     </section>
 
     <!-- <section id="signup-image" class="content">
