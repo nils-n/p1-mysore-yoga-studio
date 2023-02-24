@@ -89,6 +89,7 @@ h1,
 h2,
 h3 {
     font-family: 'Lato', sans-serif;
+    font-size: 150%;
 }
 
 h4,
@@ -345,14 +346,62 @@ p {
 }
 
 /* specific style of the prices flexbox   */
+
+.prices {
+    max-width: 300px; 
+}
 .prices-background-1 {
     background-color: var(--color-natural-orange);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
+.prices-background-2 {
+    background-color: var(--color-spot-green);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.prices-background-3 {
+    background-color: #F1797F;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
 .prices-outer-layout {
     justify-content: space-between;
+    line-height: 1.5;
+    text-align: center;
+    min-height: 200px;
+    max-width: 300px;
 }
+
+.prices-outer-layout h3 {
+    letter-spacing: 0.2rem;
+}
+
+.prices-outer-layout i {
+    font-size: 300%;
+    color: rgb(193, 193, 193); 
+    padding-top: 1rem;
+
+
+}
+
+.prices-outer-layout span {
+    font-size: 200%;
+}
+
+/* style the button in prices section  */
+.prices-button {
+
+    background-color: var(--color-natural-orange);
+    border: 4px solid white;
+}
+
+.prices-button:hover {
+    background-color: white;
+    border: 4px solid white;
+    color: var(--color-natural-orange)
+}
+
 
 /* schedule is a flexbox in a mobile setting and a grid in a desktop display*/
 .schedule {
