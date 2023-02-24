@@ -326,9 +326,11 @@ p {
         flex-direction: row;
         flex-wrap: wrap;
         min-width: 200px;
+        max-width: 1000px;
         gap: 2rem;
         align-items: center;
         justify-content: center;
+        margin: 0 auto;
     }
 
     .responsive-preview>* {
