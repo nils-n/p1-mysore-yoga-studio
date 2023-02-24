@@ -618,6 +618,7 @@ p {
     margin-bottom: 3rem;
     max-width: 1400px;
     margin: auto;
+    padding: 3rem 0;
 }
 
 .contact-container>div:first-child {
@@ -671,13 +672,13 @@ footer {
     width: 100%;
     min-height: 200px;
     text-transform: uppercase;
-    background-color: #AFC9B4;
+    background-color: var(--color-light-brown);
     color: #54433A;
     font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    margin: 5rem auto;
     text-align: center;
     max-width: 1400px;
+    font-weight: lighter;
+    font-size: 105%;
 }
 
 footer > div {
@@ -705,11 +706,8 @@ footer > div {
         justify-content: center;
         gap: 5rem;
     }
-    
 
 }
-
-
 
 footer>a {
     padding: 0px 15px;
