@@ -540,7 +540,9 @@ p {
     flex-direction: column;
     padding: 0 10px;
     background-color: rgba(122, 147, 127, .1);
-    max-width: 1000px;
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* on mobile, all of the days fall in one column. So, we don't need to take care of its grid position and can just align them. */
@@ -573,6 +575,7 @@ p {
 @media only screen and (min-width: 768px) {
     .schedule {
         display: grid;
+        max-width: 1000px;
         grid-gap: 1rem;
         margin: 0 auto;
         grid-template-rows:
