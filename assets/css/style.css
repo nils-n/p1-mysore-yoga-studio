@@ -116,7 +116,7 @@ p {
     justify-content: center;
     align-items: flex-start;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
- 
+
 }
 
 .hero-image {
@@ -157,29 +157,31 @@ p {
 /* for larger mobiles, increase buttons  */
 @media only screen and (min-width: 450px) {
     .hero-buttons {
-         max-width: 90%;
-         gap: 2rem;
+        max-width: 90%;
+        gap: 2rem;
     }
+
     .hero-buttons button {
-         min-width: 200px ; 
+        min-width: 200px;
     }
 }
 
 /* use a larger hero image for larger screens */
 @media only screen and (min-width: 768px) {
 
-    .image {
-        font-size: 120%; 
-    }
     .hero-image {
         background: url("../images/hero-large-compressed.jpg") no-repeat center center;
+        font-size: 120%;
+
     }
 }
 
-/* increase fonts for desktop screens */
+/* increase fonts for desktop screens for the hero image */
 @media only screen and (min-width: 1000px) {
-    .image {
+
+    .hero-image {
         font-size: 140%;
+
     }
 }
 
@@ -206,6 +208,7 @@ p {
 
 /* change display of hero image and text on larger screens  */
 @media only screen and (min-width: 768px) {
+
     .hero-image {
         width: 100%;
         /* background: url("../images/hero-image-wide.jpg") no-repeat center center; */
@@ -678,14 +681,14 @@ p {
 @media only screen and (min-width: 768px) {
 
     .contact-container {
-    flex-direction: column;
-    padding-bottom: 3rem 16px;
+        flex-direction: column;
+        padding-bottom: 3rem 16px;
 
     }
 
     .contact-container>div {
         min-width: 200px;
-    }       
+    }
 }
 
 /* for desktop sizes,  place the address next to the map in flex way */
@@ -704,7 +707,7 @@ p {
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: center ;
+    justify-content: center;
     width: 100%;
     min-height: 200px;
     text-transform: uppercase;
@@ -716,7 +719,7 @@ footer {
     font-size: 105%;
 }
 
-footer > div {
+footer>div {
     margin: 0 auto;
 
 }
@@ -735,6 +738,7 @@ footer > div {
     .footer {
         min-height: 150px;
     }
+
     .footer-box {
         display: flex;
         flex-direction: row;
@@ -876,7 +880,7 @@ i+i {
 }
 
 /* styling for classes page  */
-.page-header{
+.page-header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -936,7 +940,7 @@ i+i {
     background: url("../images/signup-mobile.jpg") no-repeat center center;
     background-size: cover;
     background-position: center;
-    box-shadow: none; 
+    box-shadow: none;
     align-items: center;
 
 }
@@ -949,26 +953,31 @@ i+i {
 }
 
 /* style the form of the signup page   */
-.flex-form{
+.flex-form {
     display: flex;
     justify-content: space-around;
     text-align: left;
     gap: 0.6rem;
     /* max-width: 480px ; */
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
-    padding-left: 0;
-    padding-right: 0;
-    width: 85%;  
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin: 0 auto;
+}
 
+
+/* style the font style and positions of the form items and boxes  */
+.flex-form>li>label {
+    min-width: 8rem;
 }
 
 @media only screen and (min-width: 768px) {
-
-    
+    .flex-form {
+        justify-content: center;
+    }
 }
 
-.flex-form li{
+.flex-form li {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -977,25 +986,26 @@ i+i {
     flex: 1;
 }
 
-.flex-form > li > * {
-   min-width: 220px;
+.flex-form>li>* {
+    min-width: 220px;
 }
 
-.flex-form input[type="text"], 
+.flex-form input[type="text"],
 .flex-form input[type="email"],
 .flex-form input[type="date"],
-textarea{
+textarea {
     border-radius: 4px;
     padding: 5px;
-    
+
 }
 
-.flex-form > li > ul > * {
+.flex-form>li>ul>* {
     line-height: 5rem;
 }
 
+/* style the submit buttons  */
 .flex-form input[type="submit"] {
-    margin-top: 20px;
+    margin-top: 2rem;
     border-radius: 38.1px;
     padding: 15px 32px 15px 32px;
     text-align: center;
@@ -1003,7 +1013,7 @@ textarea{
     background-color: var(--color-spot-green);
     border: 4px solid var(--color-spot-green);
     color: #fafafa;
-} 
+}
 
 .flex-form input[type="submit"]:hover {
     background-color: transparent;
@@ -1011,55 +1021,9 @@ textarea{
     color: white;
 }
 
-
-
-/* style taken and adapted from love running project  */
-
-/* 
-.signup-form {
-    color: #fff;
-    margin: 120px 0 0 40px;
-    max-width: 300px;
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 20px;
+/* for large screens increase font size compared to mobile */
+@media only screen and (min-width: 1000px) {
+    .flex-form {
+        font-size: 120%;
+    }
 }
-
-.signup-form h2 {
-    margin-bottom: 20px;
-}
-
-.signup-form input[type="radio"] {
-    float: left;
-    padding: 10px 0;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.date-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.signup-form input[type="submit"] {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #f16c6b;
-    display: block;
-    color: #fafafa;
-} */
