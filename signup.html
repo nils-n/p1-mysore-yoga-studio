@@ -45,65 +45,57 @@
 
 
     <!-- Signup Section for a first Trial Yoga class-->
-
     <section>
+
         <div class="image signup-image">
+            <form method="POST" action="https://formdump.codeinstitute.net/">
+                <ul class="flex-columun-container flex-form">
 
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                    <li>
+                        <label for="first-name">Name </label>
+                        <input type="text" id="first-name" name="name" placeholder="Enter your first Name here"
+                            required>
+                    </li>
+                    <li>
+                        <label for="email">Email </label>
+                        <input type="text" id="email" name="email" placeholder="Enter your Email address" required>
+                    </li>
+                    <li>
+                        <label for="date">Date </label>
+                        <input type="date" id="date" name="date" required>
+                    </li>
 
+                    <li>
+                        <label for="message">Message </label>
+                        <textarea rows="7" id="message" name="message"
+                            placeholder="Enter a Message if you want let us know something."></textarea>
+                    </li>
 
-            <label for="fname">Name</label>
-            <input id="fname" class="text-input" name="name" type="text" required>
+                    <ul>
+                        <li>
+                            <label for="vinyasa">Vinyasa Yoga</label>
+                            <input type="radio" id="vinyasa" name="class" value="vinyasa" required>
+                        </li>
 
-            <label for="email">Email Address</label>
-            <input type="email" class="text-input" id="email" name="email_address" required>
+                        <li>
+                            <label for="beginner">Beginner Yoga</label>
+                            <input type="radio" id="beginner" name="class" value="beginner" required>
+                        </li>
 
+                        <li>
+                            <label for="ashtanga">Ashtanga Yoga</label>
+                            <input type="radio" id="ashtanga" name="class" value="ashtanga" required>
+                        </li>
+                    </ul>
 
-            <label for="date">Date</label>
-            <input type="date" class="date-input" id="date" name="class_date" required>
-            
-            <label for="beginner">Beginner Yoga</label>
-            <input type="radio" id="beginner" name="selected_class" value="beginner" required>
-            <br />
-            <label for="vinyasa">Vinyasa Yoga</label>
-            <input type="radio" id="vinyasa" name="selected_class" value="vinyasa" required>
-            <br />
-            <label for="ashtanga">Ashtanga Yoga</label>
-            <input type="radio" id="ashtanga" name="selected_class" value="ashtanga" required>
+                    <li>
+                        <input class="submit-button" type="submit" value="Sign up!">
+                    </li>
 
-        </form>
-
+                </ul>
+            </form>
         </div>
     </section>
-
-    <!-- <section id="signup-image" class="content">
-
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Sign Up for your first class!</h2>
-
-            <label for="fname">Name</label>
-            <input id="fname" class="text-input" name="name" type="text" required>
-
-            <label for="email">Email Address</label>
-            <input type="email" class="text-input" id="email" name="email_address" required>
-
-            <label for="date">Date</label>
-            <input type="date" class="date-input" id="date" name="class_date" required>
-
-            <label for="beginner">Beginner Yoga</label>
-            <input type="radio" id="beginner" name="selected_class" value="beginner" required>
-            <br />
-            <label for="vinyasa">Vinyasa Yoga</label>
-            <input type="radio" id="vinyasa" name="selected_class" value="vinyasa" required>
-            <br />
-            <label for="ashtanga">Ashtanga Yoga</label>
-            <input type="radio" id="ashtanga" name="selected_class" value="ashtanga" required>
-
-            <input class="join-button" type="submit" value="Sign up!">
-        </form>
-
-    </section> -->
-
 
     <!--Footer-->
     <footer class="footer">
