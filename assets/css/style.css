@@ -51,7 +51,8 @@ nav a {
     text-align: center;
     font-size: 0.9rem;
     text-decoration: none;
-    color: var(--color-natural-orange)
+    color: black;
+
 }
 
 .no-wrap {
@@ -760,8 +761,8 @@ footer {
     width: 100%;
     min-height: 200px;
     text-transform: uppercase;
-    background-color: var(--color-light-brown);
-    color: #54433A;
+    background-color: var(--color-natural-orange);
+    color: white;
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-weight: lighter;
@@ -770,16 +771,21 @@ footer {
 
 footer>div {
     margin: 0 auto;
-
 }
 
 .footer-box {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 3rem;
     text-align: center;
+    text-decoration: none;
+    color: white;
+}
 
+.footer-box a {
+    color: white;
+    font-size: 155%;
 }
 
 @media only screen and (min-width: 768px) {
