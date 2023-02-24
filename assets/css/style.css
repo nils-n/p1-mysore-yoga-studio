@@ -952,7 +952,6 @@ i+i {
     background-position: center;
     box-shadow: none;
     align-items: center;
-
 }
 
 /* style signup page for larger displays  */
@@ -975,6 +974,10 @@ i+i {
     margin: 0 auto;
 }
 
+/* style the title of the form */
+.flex-form > li > h3 {
+    padding: 0.8rem 0;
+}
 
 /* style the font style and positions of the form items and boxes  */
 .flex-form>li>label {
@@ -1023,6 +1026,7 @@ textarea {
     background-color: var(--color-spot-green);
     border: 4px solid var(--color-spot-green);
     color: #fafafa;
+    letter-spacing: 0.05rem;
 }
 
 .flex-form input[type="submit"]:hover {
