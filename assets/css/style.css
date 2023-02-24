@@ -108,16 +108,19 @@ p {
 }
 
 /* add hero image section for mobile  */
-.hero-image {
+.image {
     display: flex;
     margin-top: 85px;
     min-height: 600px;
-    background: url("../images/hero-mobile.jpg") no-repeat center center;
     background-color: var(--color-light-green);
     justify-content: center;
     align-items: flex-start;
-    background-size: contain;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
+ 
+}
+
+.hero-image {
+    background: url("../images/hero-mobile.jpg") no-repeat center center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,16 +167,18 @@ p {
 
 /* use a larger hero image for larger screens */
 @media only screen and (min-width: 768px) {
+
+    .image {
+        font-size: 120%; 
+    }
     .hero-image {
         background: url("../images/hero-large-compressed.jpg") no-repeat center center;
-        font-size: 120%; 
-
     }
 }
 
 /* increase fonts for desktop screens */
 @media only screen and (min-width: 1000px) {
-    .hero-image {
+    .image {
         font-size: 140%;
     }
 }
@@ -924,13 +929,10 @@ i+i {
 }
 
 /* style the signup html page  */
-#signup-image {
+.signup-image {
     background: url("../images/signup-mobile.jpg") no-repeat center center;
     background-size: cover;
     background-position: center;
-    height: 600px;
-    width: 100%;
-    margin-top: auto;
 }
 
 /* style signup page for larger displays  */
