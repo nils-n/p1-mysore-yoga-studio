@@ -27,7 +27,7 @@ body {
 
     --color-yoga-ashtanga: #7A5174;
     --color-yoga-vinyasa: #F1797F;
-    --color-yoga-beginner: #00C9AA; 
+    --color-yoga-beginner: #00C9AA;
 
 }
 
@@ -67,7 +67,7 @@ nav a {
 }
 
 .nav-background {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
@@ -75,11 +75,11 @@ nav a {
 
 
 /* styling of the logo */
-.nav-background img { 
+.nav-background img {
     flex-shrink: 0;
     flex-grow: 0;
     width: 50%;
-    min-width: 180px ;
+    min-width: 180px;
     max-width: 250px;
 }
 
@@ -94,10 +94,11 @@ header {
 /* increase size of navigation elements on desktop screens */
 @media only screen and (min-width: 768px) {
 
-    .main-nav { 
+    .main-nav {
         gap: 5rem;
 
     }
+
     nav a {
         font-size: 1rem;
     }
@@ -196,6 +197,7 @@ p {
         max-width: 90%;
         gap: 2rem;
     }
+
     .hero-buttons button {
         min-width: 200px;
     }
@@ -216,6 +218,7 @@ p {
         min-width: 400px;
 
     }
+
     .hero-image {
         font-size: 120%;
     }
@@ -387,7 +390,7 @@ p {
     width: 100%;
 }
 
-.responsive-preview > * {
+.responsive-preview>* {
     line-height: 1.7;
 }
 
@@ -559,7 +562,6 @@ p {
     display: flex wrap;
     flex-direction: column;
     padding: 0 10px;
-    background-color: rgba(122, 147, 127, .1);
     max-width: 400px;
     width: 90%;
     margin: 0 auto;
@@ -587,14 +589,29 @@ p {
 .day {
     display: block;
     padding: 20px 5px 15px;
-    background-color: rgba(219, 189, 171, .1);
-
+    font-size: 140%;
 }
+
+@media only screen and (min-width: 768px) {
+    .day {
+        background-color: var(--color-natural-orange);
+        color: white;
+        border-radius: 38px;
+        margin-top: 35px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        padding: 10px 5px 10px;
+        font-size: 100%;
+    }
+}
+
+
 
 /* define here the location on each session in a desktop setting */
 @media only screen and (min-width: 768px) {
     .schedule {
         display: grid;
+        border: 2px solid black;
         max-width: 1000px;
         grid-gap: 1rem;
         margin: 0 auto;
@@ -830,9 +847,9 @@ footer>div {
     padding-top: 1rem;
 }
 
-.footer-box i{
+.footer-box i {
     color: white;
-} 
+}
 
 /* to add a circle around the fontawseome icons */
 .fa-circle:before {
@@ -840,7 +857,7 @@ footer>div {
     border: 2px solid white;
     background: var(--color-natural-orange);
     color: transparent;
-  } 
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -865,7 +882,7 @@ footer>a {
 }
 
 footer p {
-    padding: 25px 25px 0 ;
+    padding: 25px 25px 0;
     font-size: 15px;
 }
 
@@ -1072,7 +1089,7 @@ footer p {
 }
 
 /* style the title of the form */
-.flex-form > li > h3 {
+.flex-form>li>h3 {
     padding: 0.8rem 0;
 }
 
