@@ -45,13 +45,13 @@
     <!-- Signup Section for a first Trial Yoga class-->
     <section>
 
-        <div class="image signup-image" aria-label="Background image with hands on a Yoga mat during a Yoga Class">
+        <div class="image signup-image">
 
             <form method="POST" action="https://formdump.codeinstitute.net/" aria-labelledby="signup-heading">
 
                 <ul class="flex-columun-container flex-form">
                     <li>
-                        <h3 id="signup-heading">Sign up for a free Trial Class!</h2>
+                        <h3 id="signup-heading">Sign up for a free Trial Class!</h3>
                     </li>
                     <li>
                         <label for="first-name">Name </label>
@@ -73,22 +73,25 @@
                             placeholder="Enter a Message if you want let us know something." aria-label="Message you may want us to leave (Optional)" ></textarea>
                     </li>
 
-                    <ul>
-                        <li>
-                            <label for="vinyasa">Vinyasa Yoga</label>
-                            <input type="radio" id="vinyasa" name="class" value="vinyasa"  aria-label="Vinyasa Yoga (difficult)" required>
-                        </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <label for="vinyasa">Vinyasa Yoga</label>
+                                <input type="radio" id="vinyasa" name="class" value="vinyasa"  aria-label="Vinyasa Yoga (difficult)" required>
+                            </li>
+    
+                            <li>
+                                <label for="beginner">Beginner Yoga</label>
+                                <input type="radio" id="beginner" name="class" value="beginner"  aria-label="Vinyasa Yoga (easy)" required>
+                            </li>
+    
+                            <li>
+                                <label for="ashtanga">Ashtanga Yoga</label>
+                                <input type="radio" id="ashtanga" name="class" value="ashtanga" aria-label="Ashtanga Yoga (intermediate)" required>
+                            </li>
+                        </ul>
 
-                        <li>
-                            <label for="beginner">Beginner Yoga</label>
-                            <input type="radio" id="beginner" name="class" value="beginner"  aria-label="Vinyasa Yoga (easy)" required>
-                        </li>
-
-                        <li>
-                            <label for="ashtanga">Ashtanga Yoga</label>
-                            <input type="radio" id="ashtanga" name="class" value="ashtanga" aria-label="Ashtanga Yoga (intermediate)" required>
-                        </li>
-                    </ul>
+                    </li>
 
                     <li>
                         <input class="submit-button" type="submit" value="Sign up!" aria-label="Submit your Form">
@@ -104,7 +107,7 @@
         <div>
             <p>Visit us :</p>
             <div class="footer-box">
-                <a preview-section href="https://www.facebook.com" target="_blank" rel="noopener">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener">
                     <span class="fa-stack fa-2x">
                         <i class="fa-solid fa-circle fa-stack-2x"></i>
                         <i class="fa-solid fa-brands fa-facebook fa-stack-1x "></i>
