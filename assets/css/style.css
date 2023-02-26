@@ -310,6 +310,26 @@ p {
     color: rgb(141, 140, 140);
 }
 
+.intro-item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 4rem;
+    align-self: center;
+    max-width: 500px;
+}
+
+.intro-background {
+    background-image: url("../images/pexels-elina-intro-small.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+
 /* style the area that aims to motivate new users to sign up for a free trial  */
 .flex-columun-container {
     display: flex;
