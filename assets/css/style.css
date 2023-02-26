@@ -1150,7 +1150,7 @@ textarea {
 }
 
 .flex-form>li>ul>* {
-    line-height: 5rem;
+    line-height: 2rem;
 }
 
 /* style the submit buttons  */
