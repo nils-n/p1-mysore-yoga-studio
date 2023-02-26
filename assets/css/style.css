@@ -859,6 +859,11 @@ footer>div {
     color: transparent;
 }
 
+footer p {
+    padding: 25px 25px 0;
+    font-size: 15px;
+}
+
 @media only screen and (min-width: 768px) {
 
     .footer {
@@ -872,6 +877,10 @@ footer>div {
         gap: 5rem;
     }
 
+    footer p {
+        padding-bottom: 20px;
+    }
+
 }
 
 footer>a {
@@ -879,11 +888,6 @@ footer>a {
     font-size: 15px;
     font-weight: bold;
 
-}
-
-footer p {
-    padding: 25px 25px 0;
-    font-size: 15px;
 }
 
 /* making a sticky footer with flex -> whole body is a flexbox in column direction */
