@@ -231,6 +231,9 @@ This website was deployed via GitHub Pages using the main branch: [Link to live 
 
 ## Testing 
 
+- HTML
+    - No erros returned when testing with W3C validator 
+
 Add here a link to the [TESTING.md (PLACEHOLDER)](#testing) file. 
 
 ## Credits 
