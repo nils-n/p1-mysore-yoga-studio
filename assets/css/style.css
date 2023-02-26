@@ -792,6 +792,7 @@ footer {
     text-align: center;
     font-weight: lighter;
     font-size: 105%;
+    margin-top: 5rem;
 }
 
 footer>div {
@@ -802,16 +803,24 @@ footer>div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
     text-align: center;
     text-decoration: none;
     color: white;
+    padding-top: 1rem;
 }
 
-.footer-box a {
+.footer-box i{
     color: white;
-    font-size: 155%;
-}
+} 
+
+/* to add a circle around the fontawseome icons */
+.fa-circle:before {
+    border-radius: 50%;
+    border: 2px solid white;
+    background: var(--color-natural-orange);
+    color: transparent;
+  } 
 
 @media only screen and (min-width: 768px) {
 
@@ -836,7 +845,7 @@ footer>a {
 }
 
 footer p {
-    padding: 25px 25px;
+    padding: 25px 25px 0 ;
     font-size: 15px;
 }
 
@@ -885,10 +894,6 @@ footer p {
     text-align: center;
     font-weight: bold;
     font-size: 1.6rem;
-}
-
-i+i {
-    padding-left: 0.5rem;
 }
 
 /*  images for the class page for mobile screens */
