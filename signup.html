@@ -47,51 +47,51 @@
 
         <div class="image signup-image">
 
-            <form method="POST" action="https://formdump.codeinstitute.net/">
+            <form method="POST" action="https://formdump.codeinstitute.net/" aria-labelledby="signup-heading">
 
                 <ul class="flex-columun-container flex-form">
                     <li>
-                        <h3>Sign up for a free Trial Class!</h2>
+                        <h3 id="signup-heading">Sign up for a free Trial Class!</h2>
                     </li>
                     <li>
                         <label for="first-name">Name </label>
-                        <input type="text" id="first-name" name="name" placeholder="Enter your first Name here"
+                        <input type="text" id="first-name" name="name" placeholder="Enter your first Name here" aria-label="Your Name"
                             required>
                     </li>
                     <li>
                         <label for="email">Email </label>
-                        <input type="text" id="email" name="email" placeholder="Enter your Email address" required>
+                        <input type="text" id="email" name="email" placeholder="Enter your Email address" aria-label="Your Email Address" required>
                     </li>
                     <li>
                         <label for="date">Date </label>
-                        <input type="date" id="date" name="date" required>
+                        <input type="date" id="date" name="date" aria-label="Day you want to join a free Yoga class" required>
                     </li>
 
                     <li>
                         <label for="message">Message </label>
                         <textarea rows="7" id="message" name="message"
-                            placeholder="Enter a Message if you want let us know something."></textarea>
+                            placeholder="Enter a Message if you want let us know something." aria-label="Message you may want us to leave (Optional)" ></textarea>
                     </li>
 
                     <ul>
                         <li>
                             <label for="vinyasa">Vinyasa Yoga</label>
-                            <input type="radio" id="vinyasa" name="class" value="vinyasa" required>
+                            <input type="radio" id="vinyasa" name="class" value="vinyasa"  aria-label="Vinyasa Yoga (difficult)" required>
                         </li>
 
                         <li>
                             <label for="beginner">Beginner Yoga</label>
-                            <input type="radio" id="beginner" name="class" value="beginner" required>
+                            <input type="radio" id="beginner" name="class" value="beginner"  aria-label="Vinyasa Yoga (easy)" required>
                         </li>
 
                         <li>
                             <label for="ashtanga">Ashtanga Yoga</label>
-                            <input type="radio" id="ashtanga" name="class" value="ashtanga" required>
+                            <input type="radio" id="ashtanga" name="class" value="ashtanga" aria-label="Ashtanga Yoga (intermediate)" required>
                         </li>
                     </ul>
 
                     <li>
-                        <input class="submit-button" type="submit" value="Sign up!">
+                        <input class="submit-button" type="submit" value="Sign up!" aria-label="Submit your Form">
                     </li>
 
                 </ul>
