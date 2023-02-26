@@ -1098,20 +1098,39 @@ footer p {
     min-width: 8rem;
 }
 
-@media only screen and (min-width: 768px) {
-    .flex-form {
-        justify-content: center;
-    }
+.flex-form>li>input {
+    width: 100%;
 }
+
 
 .flex-form li {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
     color: white;
     flex: 1;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .flex-form {
+        justify-content: center;
+    }
+
+    /* change position of form labels for large screens  */
+    .flex-form li {
+        justify-content: center;
+    }
+
+    .flex-form>li>input {
+        width: auto
+    }
+
+
+}
+
+
+
 
 .flex-form>li>* {
     min-width: 220px;
