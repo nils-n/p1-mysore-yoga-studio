@@ -188,14 +188,14 @@ Wireframes were generated using [Balsamic Wireframe](https://balsamiq.com/) for 
 
 ## Technologies Used 
 
-- GitPod as IDE
-- Git / GitHub  for Version Control
-- Figma for Wireframs 
+- GitPod as IDE [Link](https://www.gitpod.io/)
+- Git / GitHub  for Version Control [Link] (https://github.com/)
+- Figma for Wireframs [Link](https://www.figma.com/)
 - Mac OS Image Preview Tool for cropping and resizing Images 
-- Google Maps for display of a GPS location
-- Favicon for making a browser Icon
-- W3 Validation Tools for Testing
-- Shields.io for adding badges this Readme file 
+- Google Maps for display of a GPS location [Link](https://maps.google.com/)
+- Favicon for making a browser Icon [Link](https://favicon.io/favicon-converter/)
+- W3 Validation Tools for Testing [Link](https://validator.w3.org/)
+- Shields.io for adding badges this Readme file [Link](https://shields.io/)
 
 ### Languages Used
 
