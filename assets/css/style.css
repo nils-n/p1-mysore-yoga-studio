@@ -601,19 +601,6 @@ p {
     margin: 0 auto;
 }
 
-/* on mobile, all of the days fall in one column. So, we don't need to take care of its grid position and can just align them. */
-.monday-0800-0900,
-.monday-0900-1000,
-.monday-1000-1100,
-.tuesday-0900-1000,
-.wednesday-0800-0900,
-.wednesday-0900-1000,
-.wednesday-0900-1000,
-.thursday-0900-1100,
-.friday-1000-1100 {
-    align-self: center;
-}
-
 /* make times disappear on mobile */
 .time-slot {
     display: none;
