@@ -117,7 +117,7 @@ The sum of Impact/Feasibility is balanced after discarding the entry "Send remin
 
 ### Color Scheme
 
-A harmonic color scheme was chosen in order to match the expectation of a mindful-themed website. Warm, earth tones were chosen to create a warm, comforting atmosphere. In addition, a set of contrasting colors have been added to create a contrast to the earthly tones in order to make the page more lively and vital. 
+A harmonic color scheme was chosen in order to match the theme of a mindful-centered website. Warm, earth tones were chosen to create a warm, comforting atmosphere. In addition, a small set of lively colors add a contrast to the earthly tones in order to make the page more lively and vital - also to express the studio's message of a balanced life style. 
 
 All color tones have been taken using a color picker from the hero image using the color palette generator [Link to Acknowledgements](#acknowledgements). 
 
@@ -127,6 +127,7 @@ All color tones have been taken using a color picker from the hero image using t
      alt="Image with Hex codes for the colors used on this website. It consists of five earhtly, warm Colors and 4 more lively, contrasting colors of the logo."
      style="padding:16px; width:50%" >
 </p>
+
 ### Typography
 
 Fonts were selected to create a professional, classic and smooth impression. Balanced contrast was selected to create a harmony that is in line with the site's goal of a relaxed and mindful work-life balance. Font pairs were then generated using deep learning-based approach using [Fontjoy](https://fontjoy.com/). In the final website, fonts were imported via [Google Fonts](https://fonts.google.com/).
@@ -137,23 +138,21 @@ Fonts were selected to create a professional, classic and smooth impression. Bal
 
 ### Imagery 
 
-###  Prototype of the Page using Balsamiq
+###  Prototype of the Page using Wireframes
 
-Wireframes were generated using [Balsamic Wireframe](https://balsamiq.com/) for mobile and desktop displays using a mobile-first approach.  
+Wireframes were generated using [Figma](https://figma.com/) for mobile and desktop displays using a mobile-first approach.  
 
 #### Home Page
-<img src="assets/images/page1-home.png" alt="Prototype wireframe diagram of the home page created with balsamiq" style="padding: 0 0 4em; width: 90%; ">
+<img src="assets/images/wireframe-1-main.png" alt="Prototype wireframe diagram of the home page created with figma" style="width: 50%; ">
 
 #### Yoga Classes Page
-<img src="assets/images/page2-classes.png" alt=" Prototype wireframe diagram of the page with the description of individual yoga classes, created with balsamiq" style="padding: 0 0 4em; width: 90%;">
+<img src="assets/images/wireframe-2-classes.png" alt=" Prototype wireframe diagram of the page with the description of individual yoga classes, created with figma" style="width: 45%;">
+
+#### Schedule Page
+<img src="assets/images/wireframe-3-schedule.png" alt=" Prototypewireframe diagram of the schedule page created with figma" style="width: 45%;">>
 
 #### Signup Page
-<img src="assets/images/page3-signup.png" alt=" Prototypewireframe diagram of the sign-up page created with balsamiq" style="padding: 0 0 4em; width: 90%;">>
-
-
-### Refined Wireframes With Figma 
-
-<img src="assets/images/PP1-Figma-wireframe-all.png" alt="Final Wireframe diagram using Figma" style="padding: 0 0 4em; width: 90%;">>
+<img src="assets/images/wireframe-4-signup.png" alt=" Prototypewireframe diagram of the sign-up page created with figma" style="width: 45%;">>
 
 
 ## Features 
