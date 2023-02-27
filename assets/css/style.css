@@ -584,7 +584,7 @@ p {
 /* schedule is a flexbox in a mobile setting and a grid in a desktop display*/
 .schedule {
     margin: 20px 20px;
-    display: flex wrap;
+    display: flex;
     flex-direction: column;
     padding: 0 10px;
     max-width: 400px;
@@ -819,7 +819,7 @@ p {
 
     .contact-container {
         flex-direction: column;
-        padding-bottom: 3rem 16px;
+        padding-bottom: 3rem;
 
     }
 
