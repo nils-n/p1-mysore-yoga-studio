@@ -340,7 +340,7 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 
 ### Deployment 
 
-This website was deployed via GitHub Pages using the main branch: [Link to live Website (PLACEHOLDER)](#deployment). The following steps were followed: 
+This website was deployed via GitHub Pages using the main branch: [Link to live Website](https://nils-n.github.io/p1-mysore-yoga-studio/). The following steps were followed: 
 
 - Log into GitHub and navigate to this repository  
 - Click on "Settings" Button 
@@ -355,7 +355,6 @@ This website was deployed via GitHub Pages using the main branch: [Link to live 
 - Click on the "Main" Branch button and type the name of the forked branch
 - Click on "Create Branch" to confirm
 
-
 #### How to Clone
 
 - Click on the "Code" button and copy the link to this repository
@@ -363,12 +362,14 @@ This website was deployed via GitHub Pages using the main branch: [Link to live 
 - in the terminal, type 'git clone ' followed by the link you copied
 - press enter to confirm
 
+---- 
+
 ## Testing 
 
-- HTML
-    - No erros returned when testing with W3C validator 
+- The website was tested extensively for Functionality, User Stories, Usability and Compatibility
+- Results are documented in [TESTING.md](./assets/documentation/TESTING.md)
 
-Add here a link to the [TESTING.md (PLACEHOLDER)](#testing) file. 
+---- 
 
 ## Credits 
 
