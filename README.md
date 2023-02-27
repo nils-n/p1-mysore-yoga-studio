@@ -270,5 +270,6 @@ All of the content was written by myself and is fictionary and has no reference 
     - Tips for CSS flexbox [ Youtube Link](https://youtu.be/rg7Fvvl3taU) and  [ Youtube Link](https://youtu.be/JnTPd9G6hoY)
     - More Tricks for flexbox and grod [Youtube Link](https://youtu.be/JHregeIsjPQ)
     - How to move from Figma to CSS [Youtube Link](https://youtu.be/NB1mn2YVF8Q)
+    - Semantic CSS [Youtube Link](https://www.youtube.com/watch?v=lWu5zf_S9R4)
 - Code Insitute Mentor Support 
 

@@ -83,6 +83,20 @@ nav a {
     max-width: 250px;
 }
 
+/* highlight the nav elements in the navbar  */
+.nav-element {
+    color:black;
+}
+
+.nav-element:hover {
+    color:var(--color-natural-orange);
+}
+
+/* highlight the current page too in in the navbar  */
+.nav-element[aria-current="page"] {
+    text-decoration: underline;
+}
+
 /* make navigation bar stick to top of screen */
 header {
     position: fixed;
