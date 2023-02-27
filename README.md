@@ -168,11 +168,90 @@ The layout of the page was then refined using [Figma](https://figma.com/). The l
 
 ### General Features 
 
+The website consits of a home page, a classes pages, a schedule page and a signup page. Each page has a Favicon icon in the browser tab, a navigation bar and a footer. All Pages are responsive. 
+
+-------
+### Main Page 
+
 #### Navigation Bar
+
+- Present on all pages and includes a logo of the studio and links to the Home Page, Classes Page, Schedule Page and Signup Page. 
+- When hovering over an Element, the color changes. 
+- The current page is always underlined. 
+
+<p align="center">
+<img src="assets/images/feature-navbar.png"
+     alt="Image with view of navigation bar"
+     style="max-width:800px" >
+</p>
+
 #### Hero Image
-#### Studio Ethos Section
-#### Yoga Schedule Section
+
+- The hero image is presented on the landing page and has a welcoming message, a location, and two Call-to-actions (CTA). 
+- The first CTA encourage the new users to sign upfor a free trial class
+- The second CTA directs to the Classes Page 
+- The buttons are placed on top of an image of a Yoga student in a relaxing pose 
+
+<p align="center">
+<img src="assets/images/feature-hero-image.png"
+     alt="Image with view of hero image"
+     style="max-width:800px" >
+</p>
+
+#### Welcome Message 
+- A short section with a quote from a famous Yoga person and a welcome message. 
+- This section is intended to express the ethos of the studio featuring relaxation and peace. 
+
+<p align="center">
+<img src="assets/images/feature-welcome-message.png"
+     alt="Image with view of the main welcome message"
+     style="max-width:800px" >
+</p>
+
+#### Classes Overview Section
+- A section with an overview of the offered classes including time information, and teacher name. 
+- Each class can be clicked on and the user gets directed to the classes page 
+- The layout of this section aimes to be a light, playful invitation to the user to look for more details 
+
+<p align="center">
+<img src="assets/images/feature-classes.png"
+     alt="Image with view of hero image"
+     style="max-width:800px" >
+</p>
+
+#### Prices Section
+- This one was difficult to design : On one hand, Yoga is meant to be non-materialistic and money should not play a major role. But on the other hand, the user is very much interested in this information! 
+- A solution to this problem was to create contrasting, playful and colorful section that is nice to look at while still being part of the Main Page
+
+<p align="center">
+<img src="assets/images/feature-pricing.png"
+     alt="Image with view of prices section"
+     style="max-width:800px" >
+</p>
+
+#### Contact Section 
+- This section conveys the location by embedding a google maps location and writing the actual address, and a telephone number 
+- Another CTA is embedded to further encourage the user to sign up for a free trial 
+
+<p align="center">
+<img src="assets/images/feature-contact.png"
+     alt="Image with view of contact section"
+     style="max-width:800px" >
+</p>
+
 #### Footer Section
+
+- The footer contains links to Facebook, Instagram , Twitter and a copyright message
+- Since the Yoga studio does not exist, these link open the main page of Facebook, etc.
+- The style of the footer is minimal, and the links are icons within a circle 
+
+<p align="center">
+<img src="assets/images/feature-footer.png"
+     alt="Image with view of footer section"
+     style="max-width:800px" >
+</p>
+
+-------
 
 #### Yoga Classes Page 
 ##### Class 1 - Yoga for Beginners 
@@ -180,6 +259,8 @@ The layout of the page was then refined using [Figma](https://figma.com/). The l
 ##### Class 3 - Vinyasa II
 ##### Class 4 - Ashtanga I 
 ##### Class 5 - Ashtanga II 
+
+-------
 
 #### Signup Page 
 ##### This page is to allow new users to sign up for a first free try-out Yoga class. 
