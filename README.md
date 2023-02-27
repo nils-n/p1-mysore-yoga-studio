@@ -117,12 +117,16 @@ The sum of Impact/Feasibility is balanced after discarding the entry "Send remin
 
 ### Color Scheme
 
-A harmonic color scheme was chosen in order to match the expectation of a mindful-themed website. Warm, earth tones were chosen to create a warm, comforting atmosphere. The basic tone was taken using a color picker from the hero image using the color palette generator [Link to Acknowledgements](#acknowledgements)
+A harmonic color scheme was chosen in order to match the expectation of a mindful-themed website. Warm, earth tones were chosen to create a warm, comforting atmosphere. In addition, a set of contrasting colors have been added to create a contrast to the earthly tones in order to make the page more lively and vital. 
 
-<img src="assets/images/color-palette.png"
-     alt="Image with five Colors and Hex codes for the colors used on this website"
-     style="padding:16px" >
+All color tones have been taken using a color picker from the hero image using the color palette generator [Link to Acknowledgements](#acknowledgements). 
 
+
+<p align="center">
+<img src="assets/images/color-palette-updated.png"
+     alt="Image with Hex codes for the colors used on this website. It consists of five earhtly, warm Colors and 4 more lively, contrasting colors of the logo."
+     style="padding:16px; width:50%" >
+</p>
 ### Typography
 
 Fonts were selected to create a professional, classic and smooth impression. Balanced contrast was selected to create a harmony that is in line with the site's goal of a relaxed and mindful work-life balance. Font pairs were then generated using deep learning-based approach using [Fontjoy](https://fontjoy.com/). In the final website, fonts were imported via [Google Fonts](https://fonts.google.com/).
