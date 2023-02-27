@@ -776,10 +776,14 @@ p {
 /* to keep the color consistent between class description page and schedule page  */
 .background-color-beginner {
     background-color: var(--color-yoga-beginner);
+    filter: brightness(110%);
+
 }
 
 .background-color-vinyasa {
     background-color: var(--color-yoga-vinyasa);
+    filter: brightness(110%);
+    /* color: var(--color-light-white); */
 }
 
 .background-color-ashtanga {
