@@ -927,35 +927,54 @@ footer>a {
 /* styling for classes HTML page: columnar flexbox with the individual yoga classes as items */
 .classes-container {
     display: flex;
-    flex-direction: column;
-    max-width: 600px;
+    flex-direction: row;
+    max-width: 500px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-
+    min-height: 500px;
 }
 
 .classes-item {
     display: flex;
+    flex-direction: row;
     flex-grow: 1;
     justify-content: space-evenly;
     align-content: center;
 }
 
+
+/* styling for classes page  */
+.page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    margin-top: 66px;
+
+}
+
+.page-header i {
+    color: var(--color-natural-orange);
+}
+
 /* styling for each yoga as a row-oriented flexbox with the information pieces as items */
 .class-details-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .class-detail-item {
-    height: 400px;
     display: flex;
+    flex-direction: row;
     flex-grow: 1;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: center;
     margin: 5px 10px;
+    padding: 10px 10px;
+    line-height: 1.5;
 }
 
-.class-detail-item h3 {
+.class-detail-item h2 {
     padding: 20px 0;
     text-align: center;
     font-weight: bold;
@@ -967,27 +986,20 @@ footer>a {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
-.classes-image {
-    height: 600px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* to emphasize items inside the classes details  */
+.emphasize {
+    padding: 10px 0;
+    font-size: 120%;
+    font-weight: 900;
 }
 
-#beginner-image {
-    background: url("../images/beginner-800-1200-mobile.jpg") no-repeat center center;
-}
-
-#vinyasa-image {
-    background: url("../images/vinyasa-movile.jpg") no-repeat center center;
-}
-
-#ashtanga-image {
-    background: url("../images/asthanga-mobile.jpg") no-repeat center center;
+/* ... and less emphasize the times */
+.less-emphasize {
+   color:rgb(224 224 224);
+   letter-spacing: 3px;
 }
 
 #beginner-image-small {
@@ -1012,39 +1024,9 @@ footer>a {
     .classes-image-small {
         width: 200px;
         height: 200px;
-        margin-top: 50%;
+        /* margin-top: 50%; */
     }
 
-    #beginner-image {
-        height: 550px;
-        width: 100%;
-        background: url("../images/beginner-large-screen.jpg") no-repeat center center;
-    }
-
-    #vinyasa-image {
-        height: 550px;
-        width: 100%;
-        background: url("../images/vinyasa-wide.jpg") no-repeat center center;
-    }
-
-    #ashtanga-image {
-        background: url("../images/ashtange-wide.jpg") no-repeat center center;
-    }
-}
-
-/* styling for classes page  */
-.page-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 200px;
-    margin-top: 66px;
-
-}
-
-.page-header i {
-    color: var(--color-natural-orange);
 }
 
 /* make classes page responsive :  column on mobile screen and two columns on desktop screens÷ */
@@ -1055,36 +1037,19 @@ footer>a {
     margin: 0 auto;
     width: 90%;
     padding-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
 }
 
-/* make classes page responsive : for tablet size and small desktops÷ */
-@media only screen and (min-width: 600px) {
-    .classes-container {
-        max-width: 1200px;
-    }
-}
 
 /* make classes page responsive : for large displays i.e. desktops split the view in two columns */
 @media only screen and (min-width: 1200px) {
-
-    .classes-container {
-        max-width: 500px;
-    }
 
     #flexContainer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-    }
-
-    /* since we are displaying in this case with two colums, use the smaller image from mobile screen again */
-    #beginner-image {
-        background: url("../images/beginner-800-1200-mobile.jpg") no-repeat center center;
-    }
-
-    #vinyasa-image {
-        background: url("../images/vinyasa-movile.jpg") no-repeat center center;
     }
 }
 
