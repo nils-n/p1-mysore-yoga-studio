@@ -151,6 +151,25 @@ p {
     max-width: 60ch;
 }
 
+
+/* make additional rules for styling - to not use h1,h2,h3 for styling from an accesibility view */
+.h2-like {
+    line-height: 2;
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.h3-like {
+    line-height: 2;
+    font-size: larger;
+    font-weight: normal;
+    padding: 60px 0 40px; 
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
 /* add hero image section for mobile  */
 .image {
     display: flex;
@@ -308,17 +327,8 @@ p {
     font-size: 120%;
 }
 
-.ethos-section h2 {
-    padding: 60px 0 40px;
-    line-height: 2;
-    font-size: larger;
-    font-weight: normal;
-}
-
 .ethos-section p {
-    line-height: 2;
     color: rgb(141, 140, 140);
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -361,6 +371,7 @@ p {
 
 .motivate-background {
     background-color: var(--color-squash-purple);
+    font-size: 110%;
 }
 
 .motivate-button {
