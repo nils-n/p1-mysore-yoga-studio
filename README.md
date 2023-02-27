@@ -1,12 +1,10 @@
 # MYSORE YOGA STUDIO 
 
-Description of the Project 
-
 This website targets members of an imaginary Yoga studio based in Glasgow, UK. The purpose of the studio is to provide a space where students can find relaxation and mindfulness outisde their stressful and competitive day-to-day life. The website encourages people to sign up for Yoga who have never practised Yoga before, and it provides basic information for Yoga students that are already signed up. 
 
-Image of the finished site > use amiresponsive.io
+Link to the live page : https://nils-n.github.io/p1-mysore-yoga-studio/
 
-Link to the live page
+Image of the finished site > use amiresponsive.io
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
