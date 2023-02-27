@@ -266,14 +266,14 @@ All of the content was written by myself and is fictionary and has no reference 
 - Font Generator from  [Fontjoy](https://fontjoy.com/)
 - Fonts from [Google Fonts](https://fonts.google.com/) 
 - Images from  [Pexels](https://pexels.com/) : 
+    - Elina Fairytale (Photographer)
     - RODNAE Productions (Photographer)
     - Yan Krukau (Photographer)
-- Wireframes from [Balsamic](https://balsamiq.com/) 
-- Kevin Powell's excellent [Youtube](https://www.youtube.com/@KevinPowell) Videos: 
+- Kevin Powell's excellent [Youtube](https://www.youtube.com/@KevinPowell) Channel: 
     - How to approach a design layout with Figma [Youtube Link](https://youtu.be/KYFwcIRx16g)
     - Tips for CSS flexbox [ Youtube Link](https://youtu.be/rg7Fvvl3taU) and  [ Youtube Link](https://youtu.be/JnTPd9G6hoY)
     - More Tricks for flexbox and grod [Youtube Link](https://youtu.be/JHregeIsjPQ)
     - How to move from Figma to CSS [Youtube Link](https://youtu.be/NB1mn2YVF8Q)
     - Semantic CSS [Youtube Link](https://www.youtube.com/watch?v=lWu5zf_S9R4)
-- Code Insitute Mentor Support 
+- Last but not least : Excellent advices from my mentor Ronan (Code Insitute) 
 
