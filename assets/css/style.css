@@ -32,9 +32,9 @@ body {
     --color-dark-discreet-brown: #402E32;
     --color-light-white: #FFF6ED;
 
-    --color-yoga-ashtanga: var(--color-squash-purple);
+    --color-yoga-beginner: var(--color-classy-dark-brown);
+    --color-yoga-ashtanga: var(--color-classy-light-green);
     --color-yoga-vinyasa: var(--color-spot-green);
-    --color-yoga-beginner: var(--color-gen-grad-yellow);
 
 }
 
@@ -754,7 +754,7 @@ p {
 /* styling of the individual classes  */
 .yoga-beginner {
     background-color: var(--color-yoga-beginner);
-    color: var(--color-dark-discreet-brown);
+    color: var(--color-light-white);
     padding: 0 10px;
     border-radius: 5px;
 }
@@ -777,13 +777,12 @@ p {
 .background-color-beginner {
     background-color: var(--color-yoga-beginner);
     filter: brightness(110%);
-
+    color: var(--color-light-white); 
 }
 
 .background-color-vinyasa {
     background-color: var(--color-yoga-vinyasa);
     filter: brightness(110%);
-    /* color: var(--color-light-white); */
 }
 
 .background-color-ashtanga {
