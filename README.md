@@ -140,19 +140,28 @@ Fonts were selected to create a professional, classic and smooth impression. Bal
 
 ###  Prototype of the Page using Wireframes
 
-Wireframes were generated using [Figma](https://figma.com/) for mobile and desktop displays using a mobile-first approach.  
 
-#### Home Page
-<img src="assets/images/wireframe-1-main.png" alt="Prototype wireframe diagram of the home page created with figma" style="width: 50%; ">
+Wireframes were generated using [Balsamiq](https://balsamiq.com/) for mobile and desktop displays using a mobile-first approach.  
 
-#### Yoga Classes Page
-<img src="assets/images/wireframe-2-classes.png" alt=" Prototype wireframe diagram of the page with the description of individual yoga classes, created with figma" style="width: 45%;">
+[Wireframe for the Homepage](/assets/images/page1-home.png)
 
-#### Schedule Page
-<img src="assets/images/wireframe-3-schedule.png" alt=" Prototypewireframe diagram of the schedule page created with figma" style="width: 45%;">>
+[Wireframe for the Classes Page](assets/images/page2-classes.png)
 
-#### Signup Page
-<img src="assets/images/wireframe-4-signup.png" alt=" Prototypewireframe diagram of the sign-up page created with figma" style="width: 45%;">>
+[Wireframe for the Signup Page](assets/images/page3-signup.png)
+
+###  Layout and Refinement of the Wireframe using Figma 
+
+The layout of the page was then refined using [Figma](https://figma.com/). The layout was created both for mobile and desktop displays, with a mobile-first approach.
+
+ During this refinement phase, it has turned out that it would be best to separate the Yoga schedule from the class description page and separate the schedule information from the Classes page and create a new page for it.  
+
+[Wireframe for the Homepage](/assets/images/wireframe-1-main.png)
+
+[Wireframe for the Classes Page](assets/images/wireframe-2-classes.png)
+
+[Wireframe for the Schedule Page](assets/images/wireframe-3-schedule.png)
+
+[Wireframe for the Signup Page](assets/images/wireframe-4-signup.png)
 
 
 ## Features 
