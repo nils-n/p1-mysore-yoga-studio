@@ -255,8 +255,6 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 
 #### Yoga Classes Page 
 
-##### Class Page 
-
 - This page contains detail information about each of the 3 classes that are offered in the Studio 
 - Each Class is within a colored box and contains information such A Summary of the Techniques, Difficulty Level, Teacher Name and Time of the Class
 - As a feature, each Class is associated with a color. 
@@ -264,20 +262,40 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 
 <p align="center">
 <img src="assets/documentation/feature-class-page.png"
-     alt="Image with view of Class Page"
+     alt="Image with view of Yoga Class Page"
      style="max-width:800px" >
 </p>
 
-##### Class 2 - Vinyasa I 
-##### Class 3 - Vinyasa II
-##### Class 4 - Ashtanga I 
-##### Class 5 - Ashtanga II 
+-------
+
+#### Schedule Page 
+
+- This page contains the Weekly Yoga Schedule from Monday to Friday, including information about Begin and End of Class, and the Teacher 
+- The classes are additionally couloured using the same colour of the Classes Page to help users visually to find the information they are looking for (when a particular class happens)
+- On large screens, this information is displayed as Schedule Grid, on mobile screen the grid gets stacked to account for smaller screen size 
+
+<p align="center">
+<img src="assets/documentation/feature-schedule.png"
+     alt="Image with view of Class Schedule Page"
+     style="max-width:800px" >
+</p>
 
 -------
 
 #### Signup Page 
-##### This page is to allow new users to sign up for a first free try-out Yoga class. 
 
+- This page contains a backkground image from the Yoga Studio and an interactive Form where user can sign up for a free Trial
+- This is intended for new users to try the Studio for the first time, and for current users to sign up for a differnent class than their usual routine 
+- The users leave their Name, Email and an optional Message, and inform the studio about the day they want to try out the class, and which class they want to visit 
+
+
+<p align="center">
+<img src="assets/documentation/feature-signup.png"
+     alt="Image with view of Signup Page"
+     style="max-width:800px" >
+</p>
+
+-------
 
 ### Future Implementations
 
