@@ -43,7 +43,14 @@ body {
 
 .main-nav>li {
     align-self: center;
-    padding: 5px 15px;
+    padding: 20px 10px;
+}
+
+/* space navigation items a bit more for large mobile/small tablet  */
+@media only screen and (min-width: 500px) {
+    .main-nav>li {
+        padding: 20px 15px;
+    }
 }
 
 .nav-background h1 {
@@ -81,15 +88,16 @@ nav a {
     width: 50%;
     min-width: 180px;
     max-width: 250px;
+    padding-top: 10px;
 }
 
 /* highlight the nav elements in the navbar  */
 .nav-element {
-    color:black;
+    color: black;
 }
 
 .nav-element:hover {
-    color:var(--color-natural-orange);
+    color: var(--color-natural-orange);
 }
 
 /* highlight the current page too in in the navbar  */
@@ -165,15 +173,15 @@ p {
     line-height: 2;
     font-size: larger;
     font-weight: normal;
-    padding: 60px 0 40px; 
+    padding: 60px 0 40px;
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
 }
 
-/* add hero image section for mobile  */
+/* add hero image section for mobile -- leave 117px margin to top to leave space for navbar */
 .image {
     display: flex;
-    margin-top: 66px;
+    margin-top: 117px;
     min-height: 600px;
     background-color: var(--color-light-green);
     justify-content: center;
@@ -196,6 +204,7 @@ p {
     color: white;
     min-height: 300px;
     text-align: center;
+    padding: 0 30px;
 }
 
 /* general style of the buttons on this page  */
@@ -998,8 +1007,8 @@ footer>a {
 
 /* ... and less emphasize the times */
 .less-emphasize {
-   color:rgb(224 224 224);
-   letter-spacing: 3px;
+    color: rgb(224 224 224);
+    letter-spacing: 3px;
 }
 
 #beginner-image-small {
