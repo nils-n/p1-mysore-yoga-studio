@@ -15,6 +15,7 @@ Link to the live page
 ![GitHub last commit](https://img.shields.io/github/last-commit/nils-n/p1-mysore-yoga-studio)
 ![GitHub language count](https://img.shields.io/github/languages/count/nils-n/p1-mysore-yoga-studio)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/nils-n/p1-mysore-yoga-studio)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fnils-n.github.io%2Fp1-mysore-yoga-studio%2F)
 
 
 ## Table of Contents 
