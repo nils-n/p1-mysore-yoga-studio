@@ -143,11 +143,11 @@ Fonts were selected to create a professional, classic and smooth impression. Bal
 
 Wireframes were generated using [Balsamiq](https://balsamiq.com/) for mobile and desktop displays using a mobile-first approach.  
 
-[Wireframe for the Homepage](/assets/images/page1-home.png)
+[Wireframe for the Homepage](/assets/documentation/page1-home.png)
 
-[Wireframe for the Classes Page](assets/images/page2-classes.png)
+[Wireframe for the Classes Page](assets/documentation/page2-classes.png)
 
-[Wireframe for the Signup Page](assets/images/page3-signup.png)
+[Wireframe for the Signup Page](assets/documentation/page3-signup.png)
 
 ###  Layout and Refinement of the Wireframe using Figma 
 
@@ -155,13 +155,13 @@ The layout of the page was then refined using [Figma](https://figma.com/). The l
 
  During this refinement phase, it has turned out that it would be best to separate the Yoga schedule from the class description page and separate the schedule information from the Classes page and create a new page for it.  
 
-[Wireframe for the Homepage](/assets/images/wireframe-1-main.png)
+[Wireframe for the Homepage](/assets/documentation/wireframe-1-main.png)
 
-[Wireframe for the Classes Page](assets/images/wireframe-2-classes.png)
+[Wireframe for the Classes Page](assets/documentation/wireframe-2-classes.png)
 
-[Wireframe for the Schedule Page](assets/images/wireframe-3-schedule.png)
+[Wireframe for the Schedule Page](assets/documentation/wireframe-3-schedule.png)
 
-[Wireframe for the Signup Page](assets/images/wireframe-4-signup.png)
+[Wireframe for the Signup Page](assets/documentation/wireframe-4-signup.png)
 
 
 ## Features 
@@ -180,7 +180,7 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 - The current page is always underlined. 
 
 <p align="center">
-<img src="assets/images/feature-navbar.png"
+<img src="assets/documentation/feature-navbar.png"
      alt="Image with view of navigation bar"
      style="max-width:800px" >
 </p>
@@ -193,7 +193,7 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 - The buttons are placed on top of an image of a Yoga student in a relaxing pose 
 
 <p align="center">
-<img src="assets/images/feature-hero-image.png"
+<img src="assets/documentation/feature-hero-image.png"
      alt="Image with view of hero image"
      style="max-width:800px" >
 </p>
@@ -203,7 +203,7 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 - This section is intended to express the ethos of the studio featuring relaxation and peace. 
 
 <p align="center">
-<img src="assets/images/feature-welcome-message.png"
+<img src="assets/documentation/feature-welcome-message.png"
      alt="Image with view of the main welcome message"
      style="max-width:800px" >
 </p>
@@ -214,7 +214,7 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 - The layout of this section aimes to be a light, playful invitation to the user to look for more details 
 
 <p align="center">
-<img src="assets/images/feature-classes.png"
+<img src="assets/documentation/feature-classes.png"
      alt="Image with view of hero image"
      style="max-width:800px" >
 </p>
@@ -224,7 +224,7 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 - A solution to this problem was to create contrasting, playful and colorful section that is nice to look at while still being part of the Main Page
 
 <p align="center">
-<img src="assets/images/feature-pricing.png"
+<img src="assets/documentation/feature-pricing.png"
      alt="Image with view of prices section"
      style="max-width:800px" >
 </p>
@@ -234,7 +234,7 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 - Another CTA is embedded to further encourage the user to sign up for a free trial 
 
 <p align="center">
-<img src="assets/images/feature-contact.png"
+<img src="assets/documentation/feature-contact.png"
      alt="Image with view of contact section"
      style="max-width:800px" >
 </p>
@@ -246,7 +246,7 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 - The style of the footer is minimal, and the links are icons within a circle 
 
 <p align="center">
-<img src="assets/images/feature-footer.png"
+<img src="assets/documentation/feature-footer.png"
      alt="Image with view of footer section"
      style="max-width:800px" >
 </p>
@@ -254,7 +254,20 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 -------
 
 #### Yoga Classes Page 
-##### Class 1 - Yoga for Beginners 
+
+##### Class Page 
+
+- This page contains detail information about each of the 3 classes that are offered in the Studio 
+- Each Class is within a colored box and contains information such A Summary of the Techniques, Difficulty Level, Teacher Name and Time of the Class
+- As a feature, each Class is associated with a color. 
+- When the user navigate from this page to the Schedule Page, they will find the same colors of the class in the Week Schedule guiding them visually to the information they want
+
+<p align="center">
+<img src="assets/documentation/feature-class-page.png"
+     alt="Image with view of Class Page"
+     style="max-width:800px" >
+</p>
+
 ##### Class 2 - Vinyasa I 
 ##### Class 3 - Vinyasa II
 ##### Class 4 - Ashtanga I 
