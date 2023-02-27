@@ -310,6 +310,13 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 
 ### Accessibility
 
+- The website has been made to pass WAVE WebAIM Accesibility Check
+- Color Contrast was aimed to match minimum acceptance criteria Accessibility Validation of the [A11y Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) Framework
+- All Links have been added an `aria-label` to ensure readibility for visually impaired users of the website 
+- Headings ELements `h1`, `h2`, and `h3` have been applied to convey structure
+- The pages are strucutred with `section`, `header`, `nav` and `footer` Html elements using semantic Html 
+- Every `img` element has been given an `alt` attribute. Image elements, such as Hero image, which were implemented as background images within CSS have been linked to a heading via `aria-labelledby` property of the division containing the background image. 
+
 ## Technologies Used 
 
 - GitPod as IDE [Link](https://www.gitpod.io/)
