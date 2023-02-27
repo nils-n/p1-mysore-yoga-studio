@@ -4,7 +4,11 @@ This website targets members of an imaginary Yoga studio based in Glasgow, UK. T
 
 Link to the live page : https://nils-n.github.io/p1-mysore-yoga-studio/
 
-Image of the finished site > use amiresponsive.io
+<p align="center">
+<img src="assets/images/amiresponsive.png"
+     alt="Image with views of the website on different devices to visualize responsiveness"
+     style="max-width:800px; padding:22px" >
+</p>
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
