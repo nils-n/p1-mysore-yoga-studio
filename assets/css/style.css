@@ -256,6 +256,7 @@ p {
 /* use a larger hero image for larger screens */
 @media only screen and (min-width: 768px) {
     .hero-image {
+        background-color: black;
         background: url("../images/hero-large-compressed.jpg") no-repeat center center;
         font-size: 110%;
     }
