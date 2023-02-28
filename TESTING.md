@@ -102,3 +102,15 @@ The website has been tested for compatibility between browsers, and that the web
      style="max-width:800px" >
 </p>
 
+-----
+
+## Issues Found During Testing 
+
+
+| Test Case | Issue       | Fix |  Result |
+| --------  |:------------:| ------:| ------:|
+| TC05      |  Colour Contrast of Buttons on the Hero Image did not pass A11Y Validation Standard (Ratio 4:1)  | Change Background Colour using color picker, update CSS  |  Solved    |
+| TC08      |  W3C CSS Validator error : Typo of padding unit (`2x` instead of `2px`) | Typo corrected    |  Solved   |
+| TC11      | More interactivity and personalized would be desirable, i.e. a guest book, Yoga shop or personalized user experience.  |  at this point of the course there are no techniques available to create such content   |  Unresolved - Future Release   |
+| TC14     |  2 Colour Contrast Errors found | Changed colors at the requested location of the CSS   |  Solved   |
+| TC14     |  3 accessibility errors in the footer, saying "A link contains no text" | correct aria-labels at the mentioned location in the CSS file   |  Solved   |
