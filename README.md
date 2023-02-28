@@ -365,13 +365,30 @@ This website was deployed via GitHub Pages using the main branch: [Link to live 
 
 ## Testing 
 
-- The website was tested extensively for : 
-     - Functionality
-     - User Stories
-     - Usability and Accessibility 
-     - Compatibility and Responsiveness 
-- Results are documented in a dedicated Markdown File
-     -   Link to the Results : [TESTING.md](./TESTING.md)
+### Testing Procedure 
+The website was tested extensively for several apsects , and the results were documented in [TESTING.md](./TESTING.md) 
+
+ - Functionality
+ - User Stories
+- Usability and Accessibility 
+- Compatibility and Responsiveness 
+
+
+### Solved Bugs 
+
+A range of bugs have appeared during the development stages. Here a list of the major bugs: 
+
+- On the Schedule page, the classes would not align align properly with the week days for larger screens. The underlying problem was an incorrect use of `display:grid` elements. The issue was fixed by using dedicated `grid-template-rows` and `grid-template-rows` to line up the times with the schedule elementss. 
+- The `classes` container on the Classes Page would overflow on small screens. The reason was a fixed height of `600px` which was solved by changing the height to `min-height:600px` to allow the box to increase size for smaller displays 
+- The navigation bar would overflow on small screens, and also would not consistently stick to the top properly. This was fixed by changing it CSS positioning value to `position: fixed` and by making the navbar a `display:flex` object that allows to wrap into a new column making therefore enough space for the nav elements also on smaller screens.
+- On a few occasions the images would not display correctly. This problem should be solved by changing all image paths  to relative paths.
+- During testing it turned out that sometimes the footer would not stick to the bottom of the page. This was fixed by changing its position to `sticky` 
+- The container of the hero image would reach into the header and its content would be hidden behind it. This was fixed by adding a correct `margin-top` to the image hero section, accoring to the size of the navbar. 
+- On small screens, there would be a small white space below the footer. This was caused by an erroneous `padding: 20px;` property (presumably from a previous version of mine) - once removed the white space would disappear.   
+- the `div` container of the `ethos-section` on the main page would not be centered. This was solved by adding the CSS properties `text-align: center; margin-left: auto; margin-right: auto;` . 
+- On the Classes Page, the main container wrapping the flexbox would not center the elements on large screens. This was fixed by adding the properties `justify-self: center;` and `margin: 0 auto;` to it. 
+- The form on the Signup Page would not be centered on large screen. This was caused by a fixed by removing a  `width: 85%` and adding the `padding-left: 2rem;` and `padding-right: 2rem;` to the CSS stylesheet that targets the form elements.
+- The schedule on the Schedule Page would become too large on very large (1400px) screens. This was fixed by setting a `max-width:1000px;` property
 
 ---- 
 
