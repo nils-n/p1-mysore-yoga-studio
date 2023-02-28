@@ -12,6 +12,7 @@ The original Excel Testing document can be accessed via [Excel Testing Results](
 - [Tests of User Stories  ](#tests-of-user-stories)
 - [Tests for Usability   ](#tests-for-usability)
 - [Tests for Compatibility ](#tests-for-compatibility)
+- [Issues Found During Testing ](#issues-found-during-testing)
 
 -----
 
