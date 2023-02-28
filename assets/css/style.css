@@ -774,6 +774,24 @@ footer>div {
     color: transparent;
 }
 
+/* add a hovering effect for the elements in the footer 
+started with stackoverflow anwser
+https://stackoverflow.com/questions/30870778/how-to-change-color-of-font-awesome-stacked-icons-on-hover */
+.fa-stack:hover  .fa-circle:before {
+    border: 2px solid var(--color-light-white); 
+}
+.fa-stack:hover  .fa-facebook {
+    color: var(--color-light-white); 
+}
+
+.fa-stack:hover  .fa-instagram {
+    color: var(--color-light-white); 
+}
+
+.fa-stack:hover  .fa-twitter {
+    color: var(--color-light-white); 
+}
+
 footer p {
     padding: 25px 25px 0;
     font-size: 15px;
