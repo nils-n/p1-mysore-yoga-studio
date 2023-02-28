@@ -874,7 +874,7 @@ footer {
     min-height: 200px;
     text-transform: uppercase;
     background-color: var(--color-natural-orange);
-    color: var(--color-dark-discreet-brown);
+    color: var(--color-button-background);
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 105%;
