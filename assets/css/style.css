@@ -1028,7 +1028,7 @@ footer>a {
 /* ... and less emphasize the times */
 .less-emphasize {
     letter-spacing: 3px;
-    padding: 5x 0 5px;
+    padding: 5px 0 5px;
     filter: brightness(65%);
 
 }
