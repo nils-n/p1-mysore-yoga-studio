@@ -296,6 +296,18 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 
 -------
 
+#### 404 Page 
+
+- This page contains a friendly message that the 404 server error has occured. Links are provided to help the user navigate to another item on the page. 
+
+<p align="center">
+<img src="assets/documentation/feature-404-page.png"
+     alt="Image with view of Signup Page"
+     style="max-width:800px" >
+</p>
+
+-------
+
 ### Future Implementations
 
 - User login to personalize the experience.
