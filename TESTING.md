@@ -13,6 +13,7 @@ The original Excel Testing document can be accessed via [Excel Testing Results](
 - [Tests for Usability   ](#tests-for-usability)
 - [Tests for Compatibility ](#tests-for-compatibility)
 - [Issues Found During Testing ](#issues-found-during-testing)
+- [Results Chrome Lighthouse ](#results-chrome-lighthouse)
 
 -----
 
@@ -36,6 +37,7 @@ In the table below the outputs of the W3C HTML Validation results. All tests pas
 | Classes  |  <img src="assets/testing/html-w3c-classes.png" alt="image of W3C Html Validation result" >   | Pass   |
 | Schedule |  <img src="assets/testing/html-w3c-schedule.png" alt="image of W3C Html alidation result" >  | Pass   |
 | Signup   |  <img src="assets/testing/html-w3c-signup.png" alt="image of W3C Html Validation result" >  | Pass   |
+| 404   |  <img src="assets/testing/html-w3c-404.png" alt="image of W3C Html Validation result" >  | Pass   |
 
 ### Results W3C CSS Validation
 
@@ -48,6 +50,7 @@ In the table below the outputs of the W3C CSS Validation results. All tests pass
 | Classes  |  <img src="assets/testing/css-2.png" alt="image of W3C CSS Validation result" >   | Pass   |
 | Schedule |  <img src="assets/testing/css-3.png" alt="image of W3C CSS Validation result" >  | Pass   |
 | Signup   |  <img src="assets/testing/css-4.png" alt="image of W3C CSS Validation result" >  | Pass   |
+| 404   |  <img src="assets/testing/css-404.png" alt="image of W3C CSS Validation result" >  | Pass   |
 
 ### Results A11y Color Test
 
@@ -67,6 +70,7 @@ In the table the output of the A11y Color Contrast Validation results of each pa
 | Classes  |  <img src="assets/testing/color-test-classes.png" alt="image of A11y color contrast validation result" >   | Pass   |
 | Schedule  |  <img src="assets/testing/color-test-schedule.png" alt="image of A11y color contrast validation result" >   | Pass   |
 | Signup  |  <img src="assets/testing/color-test-signup.png" alt="image of A11y color contrast validation result" >   | Pass   |
+| 404  |  <img src="assets/testing/color-test-404.png" alt="image of A11y color contrast validation result" >   | Pass   |
 
 ## Tests of User Stories 
 
@@ -115,3 +119,22 @@ The website has been tested for compatibility between browsers, and that the web
 | TC11      | More interactivity and personalized would be desirable, i.e. a guest book, Yoga shop or personalized user experience.  |  at this point of the course there are no techniques available to create such content   |  Unresolved - Future Release   |
 | TC14     |  2 Colour Contrast Errors found | Changed colors at the requested location of the CSS   |  Solved   |
 | TC14     |  3 accessibility errors in the footer, saying "A link contains no text" | correct aria-labels at the mentioned location in the CSS file   |  Solved   |
+
+## Results Chrome Lighthouse 
+
+The Chrome Lighthouse Tool integrated in the Chrome Developer Tools has been applied to test the performance of each page. 
+
+
+| Page     | Result       | 
+| -------- |:------------:| 
+| Main   | <img src="assets/testing/lighthouse-main.png" alt="image of result of chrome lighthouse test" >  | 
+|        |  Performance scores a bit low. Lighthouse suggests to eliminate render-blocking resources. | 
+| Classes   | <img src="assets/testing/lighthouse-classes.png" alt="image of result of chrome lighthouse test" >  | 
+|        |  Performance scores a bit low. Lighthouse suggests to eliminate render-blocking resources.  | 
+| Schedule   | <img src="assets/testing/lighthouse-schedule.png" alt="image of result of chrome lighthouse test" >  | 
+|        |  Lighthouse suggests to eliminate render-blocking resources.  | 
+| Signup   | <img src="assets/testing/lighthouse-signup.png" alt="image of result of chrome lighthouse test" >  | 
+|        |  Lighthouse suggests to eliminate render-blocking resources.   | 
+| 404   | <img src="assets/testing/lighthouse-404.png" alt="image of result of chrome lighthouse test" >  | 
+|        |  Lighthouse suggests to eliminate render-blocking resources.    | 
+
