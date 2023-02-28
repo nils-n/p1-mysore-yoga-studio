@@ -221,6 +221,7 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 #### Prices Section
 - This one was difficult to design : On one hand, Yoga is meant to be non-materialistic and money should not play a major role. But on the other hand, the user is very much interested in this information! 
 - A solution to this problem was to create contrasting, playful and colorful section that is nice to look at while still being part of the Main Page
+- The text of the price boxes changes color from dark to white while hovering over them with the mouse, adding to the playful intention of the design
 
 <p align="center">
 <img src="assets/documentation/feature-pricing.png"
@@ -316,8 +317,6 @@ The website consits of a home page, a classes pages, a schedule page and a signu
 - feedback to specific teachers or classes.
 - interactive feature i.e. a guest book.
 - online shop for supporting material (i.e. Yoga mats, Yoga cloths) or Yoga vacations/workshops.
-
-#### User section 
 
 ### Accessibility
 
