@@ -517,6 +517,11 @@ And are also inpired by Kevin Powell's Video Tutorials about CSS Flexboxes (Link
     max-width: 500px;
 }
 
+/* add a hovering effect to prices boxes  */
+.prices-outer-layout:hover > div {
+    color:white;
+}
+
 /* on larger screens make the classes boxes a little smaller */
 @media only screen and (min-width: 800px) {
     .preview-item {
