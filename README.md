@@ -46,7 +46,6 @@ Link to the live page : https://nils-n.github.io/p1-mysore-yoga-studio/
 - [Credits](#credits)
     - [Code Used](#code-used)
     - [Content](#content)
-    - [Media](#media)
     - [Acknowledgements](#acknowledgements)
 
 
@@ -393,8 +392,6 @@ This website was deployed via GitHub Pages using the main branch: [Link to live 
 ### Content 
 
 All of the content was written by myself and is fictionary and has no reference to any exisiting place. 
-
-### Media 
 
 ### Acknowledgements
 - Teaching and Support from Code Insitute [Code Insitute](https://codeinstitute.net/)
