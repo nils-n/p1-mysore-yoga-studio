@@ -1,4 +1,26 @@
-/* general styling rules */
+
+/* --------------------------------------------------------
+[Table of contents]
+
+1. General Styling Rules 
+2. Navigation Bar
+3. Hero Image Section - Main Page
+4. Ethos and Welcome Message Section - Main Page  
+5. Yoga Classes Preview Section - Main Page  
+6. Prices Overview Section - Main Page  
+7. Contact Section - Main Page 
+8. Footer 
+9. Weekly Yoga Schedule - Schedule Page
+10. Details Yoga Classes - Classes Page
+11. Signup Page
+
+-------------------------------------------------------- */
+
+
+/* --------------------------------------------------------
+1. General Styling Rules 
+-------------------------------------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +32,54 @@
 html,
 body {
     height: 100%;
+}
+
+
+/* These are the imported fonts from google fonts  */
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 250%;
+}
+
+h2,
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+}
+
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    max-width: 60ch;
+}
+
+/* make additional rules for styling - to not use h1,h2,h3 for styling from an accesibility view */
+.h2-like {
+    line-height: 2;
+    font-size: 180%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.h3-like {
+    line-height: 2;
+    font-size: larger;
+    font-weight: normal;
+    padding: 60px 0 40px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
 }
 
 /* define colors that you will use througout this page */
@@ -38,6 +108,10 @@ body {
     --color-yoga-vinyasa: var(--color-spot-green);
 
 }
+
+/* --------------------------------------------------------
+2. Navigation Bar
+-------------------------------------------------------- */
 
 /* styling of the navigation elements */
 .main-nav {
@@ -126,7 +200,6 @@ header {
 
     .main-nav {
         gap: 5rem;
-
     }
 
     nav a {
@@ -138,53 +211,9 @@ header {
     }
 }
 
-/* These are the imported fonts from google fonts  */
-body {
-    font-family: 'Montserrat Alternates', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-h1 {
-    font-family: 'Lato', sans-serif;
-    font-size: 250%;
-}
-
-h2,
-h3 {
-    font-family: 'Lato', sans-serif;
-    font-size: 150%;
-}
-
-h4,
-h5,
-h6 {
-    font-family: 'Oswald', sans-serif;
-}
-
-p {
-    max-width: 60ch;
-}
-
-
-/* make additional rules for styling - to not use h1,h2,h3 for styling from an accesibility view */
-.h2-like {
-    line-height: 2;
-    font-size: 180%;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-}
-
-.h3-like {
-    line-height: 2;
-    font-size: larger;
-    font-weight: normal;
-    padding: 60px 0 40px;
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 1px;
-}
+/* --------------------------------------------------------
+3. Hero Image Section - Main Page
+-------------------------------------------------------- */
 
 /* add hero image section for mobile -- leave 117px margin to top to leave space for navbar */
 .image {
@@ -333,6 +362,10 @@ p {
 
 }
 
+/* --------------------------------------------------------
+4. Ethos and Welcome Message Section - Main Page  
+-------------------------------------------------------- */
+
 /* style of ethos section */
 .ethos-section {
     width: 90%;
@@ -403,6 +436,10 @@ p {
     color: var(--color-squash-purple);
 
 }
+
+/* --------------------------------------------------------
+5. Yoga Classes Preview Section - Main Page  
+-------------------------------------------------------- */
 
 /* section with the preview and links to the classes  */
 .preview-section {
@@ -541,8 +578,11 @@ p {
     width: 100%;
 }
 
-/* specific style of the prices flexbox   */
+/* --------------------------------------------------------
+6. Prices Overview Section - Main Page  
+-------------------------------------------------------- */
 
+/* specific style of the prices flexbox   */
 .prices {
     max-width: 300px;
     justify-content: center;
@@ -614,6 +654,157 @@ p {
 }
 
 
+/* --------------------------------------------------------
+7. Contact Section - Main Page 
+-------------------------------------------------------- */
+
+/* styling of the section with contact and google maps. if mobile screen, display address details and map as two blocks*/
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 3rem;
+    max-width: 1400px;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+.contact-container>div:first-child {
+    line-height: 1.7;
+    align-self: center;
+}
+
+.contact-container>div:last-child {
+    line-height: 1.7;
+    width: 85%;
+    align-self: center;
+}
+
+#map {
+    width: 100%;
+    min-height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+/* for tablet sizes, increase the size of the map a bit */
+@media only screen and (min-width: 768px) {
+
+    .contact-container {
+        flex-direction: column;
+        padding-bottom: 3rem;
+
+    }
+
+    .contact-container>div {
+        min-width: 200px;
+    }
+}
+
+/* for desktop sizes,  place the address next to the map in flex way */
+@media only screen and (min-width: 1000px) {
+    .contact-container {
+        flex-direction: row;
+        padding: 0 32px;
+    }
+
+    .contact-container>div:last-child {
+        width: 70%;
+    }
+}
+
+/* --------------------------------------------------------
+8. Footer 
+-------------------------------------------------------- */
+
+/* styling of the footer  */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 200px;
+    text-transform: uppercase;
+    background-color: var(--color-natural-orange);
+    color: var(--color-button-background);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 105%;
+}
+
+footer>div {
+    margin: 0 auto;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-dark-discreet-brown);
+    padding-top: 1rem;
+}
+
+.footer-box i {
+    color: var(--color-dark-discreet-brown);
+}
+
+/* to add a circle around the fontawseome icons */
+.fa-circle:before {
+    border-radius: 50%;
+    border: 2px solid var(--color-dark-discreet-brown);
+    background: var(--color-natural-orange);
+    color: transparent;
+}
+
+footer p {
+    padding: 25px 25px 0;
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .footer {
+        min-height: 150px;
+    }
+
+    .footer-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    footer p {
+        padding-bottom: 20px;
+    }
+
+}
+
+footer>a {
+    padding: 0px 15px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+/* making a sticky footer with flex -> whole body is a flexbox in column direction */
+.footer {
+    flex-shrink: 0;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+/* --------------------------------------------------------
+9. Weekly Yoga Schedule - Schedule Page
+-------------------------------------------------------- */
+
 /* schedule is a flexbox in a mobile setting and a grid in a desktop display*/
 .schedule {
     margin: 20px 20px;
@@ -656,8 +847,6 @@ p {
         font-size: 100%;
     }
 }
-
-
 
 /* define here the location on each session in a desktop setting */
 @media only screen and (min-width: 768px) {
@@ -810,144 +999,9 @@ p {
     font-weight: bold;
 }
 
-/* styling of the section with contact and google maps. if mobile screen, display address details and map as two blocks*/
-.contact-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 400px;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 4rem;
-    margin-bottom: 3rem;
-    max-width: 1400px;
-    margin: auto;
-    padding: 3rem 0;
-}
-
-.contact-container>div:first-child {
-    line-height: 1.7;
-    align-self: center;
-}
-
-.contact-container>div:last-child {
-    line-height: 1.7;
-    width: 85%;
-    align-self: center;
-}
-
-#map {
-    width: 100%;
-    min-height: 300px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-}
-
-/* for tablet sizes, increase the size of the map a bit */
-@media only screen and (min-width: 768px) {
-
-    .contact-container {
-        flex-direction: column;
-        padding-bottom: 3rem;
-
-    }
-
-    .contact-container>div {
-        min-width: 200px;
-    }
-}
-
-/* for desktop sizes,  place the address next to the map in flex way */
-@media only screen and (min-width: 1000px) {
-    .contact-container {
-        flex-direction: row;
-        padding: 0 32px;
-    }
-
-    .contact-container>div:last-child {
-        width: 70%;
-    }
-}
-
-/* styling of the footer  */
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-height: 200px;
-    text-transform: uppercase;
-    background-color: var(--color-natural-orange);
-    color: var(--color-button-background);
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    font-size: 105%;
-}
-
-footer>div {
-    margin: 0 auto;
-}
-
-.footer-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-    text-align: center;
-    text-decoration: none;
-    color: var(--color-dark-discreet-brown);
-    padding-top: 1rem;
-}
-
-.footer-box i {
-    color: var(--color-dark-discreet-brown);
-}
-
-/* to add a circle around the fontawseome icons */
-.fa-circle:before {
-    border-radius: 50%;
-    border: 2px solid var(--color-dark-discreet-brown);
-    background: var(--color-natural-orange);
-    color: transparent;
-}
-
-footer p {
-    padding: 25px 25px 0;
-    font-size: 15px;
-}
-
-@media only screen and (min-width: 768px) {
-
-    .footer {
-        min-height: 150px;
-    }
-
-    .footer-box {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 5rem;
-    }
-
-    footer p {
-        padding-bottom: 20px;
-    }
-
-}
-
-footer>a {
-    padding: 0px 15px;
-    font-size: 15px;
-    font-weight: bold;
-
-}
-
-/* making a sticky footer with flex -> whole body is a flexbox in column direction */
-.footer {
-    flex-shrink: 0;
-}
-
-.content {
-    flex: 1 0 auto;
-}
+/* --------------------------------------------------------
+10. Details Yoga Classes - Classes Page
+-------------------------------------------------------- */
 
 /* styling for classes HTML page: columnar flexbox with the individual yoga classes as items */
 .classes-container {
@@ -1057,9 +1111,7 @@ footer>a {
     .classes-image-small {
         width: 200px;
         height: 200px;
-        /* margin-top: 50%; */
     }
-
 }
 
 /* make classes page responsive :  column on mobile screen and two columns on desktop screens÷ */
@@ -1074,7 +1126,6 @@ footer>a {
     align-items: center;
 }
 
-
 /* make classes page responsive : for large displays i.e. desktops split the view in two columns */
 @media only screen and (min-width: 1200px) {
 
@@ -1085,6 +1136,10 @@ footer>a {
         justify-content: center;
     }
 }
+
+/* --------------------------------------------------------
+11. Signup Page
+-------------------------------------------------------- */
 
 /* style the signup html page  */
 .signup-image {
@@ -1129,7 +1184,6 @@ footer>a {
     width: 100%;
 }
 
-
 .flex-form li {
     display: flex;
     flex-wrap: wrap;
@@ -1137,7 +1191,6 @@ footer>a {
     color: white;
     flex: 1;
 }
-
 
 @media only screen and (min-width: 768px) {
     .flex-form {
@@ -1152,8 +1205,6 @@ footer>a {
     .flex-form>li>input {
         width: auto
     }
-
-
 }
 
 .flex-form>li>* {
@@ -1199,3 +1250,7 @@ textarea {
         font-size: 120%;
     }
 }
+
+/* --------------------------------------------------------
+END OF DOCUMENT 
+-------------------------------------------------------- */
