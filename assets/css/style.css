@@ -198,6 +198,7 @@ p {
 }
 
 .hero-image {
+    background-color: black;
     background: url("../images/hero-mobile.jpg") no-repeat center center;
     background-position: center;
     background-repeat: no-repeat;
