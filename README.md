@@ -383,6 +383,7 @@ This website was deployed via GitHub Pages using the main branch: [Link to live 
 - Tipp on how to make layout with multiple columns responsive [Stackoverflow](https://stackoverflow.com/questions/56045114/flexbox-layout-with-two-columns-on-desktop-and-one-column-on-mobile)
 - Code example to make footer stick to the bottom of the page [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/)
 - Code for semantic CSS selectors inspired by [Kevin Powell's Youtube Video](https://www.youtube.com/watch?v=lWu5zf_S9R4) 
+- Excel Template for Website Testing [Link to Page](https://www.guru99.com/download-sample-test-case-template-with-explanation-of-important-fields.html)
 
 ### Content 
 
