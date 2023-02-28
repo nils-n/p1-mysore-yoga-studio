@@ -114,6 +114,7 @@ The website has been tested for compatibility between browsers, and that the web
 
 | Test Case | Issue       | Fix |  Result |
 | --------  |:------------:| ------:| ------:|
+| TC04      |  Form would be accepted with invalid Email   | Change type of input from `text` to `email` |  Solved    |
 | TC05      |  Colour Contrast of Buttons on the Hero Image did not pass A11Y Validation Standard (Ratio 4:1)  | Change Background Colour using color picker, update CSS  |  Solved    |
 | TC08      |  W3C CSS Validator error : Typo of padding unit (`2x` instead of `2px`) | Typo corrected    |  Solved   |
 | TC11      | More interactivity and personalized would be desirable, i.e. a guest book, Yoga shop or personalized user experience.  |  at this point of the course there are no techniques available to create such content   |  Unresolved - Future Release   |
