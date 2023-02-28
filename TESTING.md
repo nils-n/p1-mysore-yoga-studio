@@ -124,6 +124,8 @@ The website has been tested for compatibility between browsers, and that the web
 
 The Chrome Lighthouse Tool integrated in the Chrome Developer Tools has been applied to test the performance of each page. 
 
+- For all pages, it suggest to serve images in next-gen formats and to eliminate render-blocking resources.
+
 
 | Page     | Result       | 
 | -------- |:------------:| 
