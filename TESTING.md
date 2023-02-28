@@ -122,9 +122,10 @@ The website has been tested for compatibility between browsers, and that the web
 
 ## Results Chrome Lighthouse 
 
-The Chrome Lighthouse Tool integrated in the Chrome Developer Tools has been applied to test the performance of each page. 
+The Chrome Lighthouse Tool integrated in the Chrome Developer Tools has been applied to test the performance and accessibility of each page. 
 
 - For all pages, it suggest to serve images in next-gen formats and to eliminate render-blocking resources.
+- Accessibility scores sufficiently high across all pages 
 
 
 | Page     | Result       | 
