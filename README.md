@@ -366,8 +366,13 @@ This website was deployed via GitHub Pages using the main branch: [Link to live 
 
 ## Testing 
 
-- The website was tested extensively for Functionality, User Stories, Usability and Compatibility
-- Results are documented in [TESTING.md](./assets/documentation/TESTING.md)
+- The website was tested extensively for : 
+     - Functionality
+     - User Stories
+     - Usability and Accessibility 
+     - Compatibility and Responsiveness 
+- Results are documented in a dedicated Markdown File
+     -   Link to the Results  : [TESTING.md](./TESTING.md)
 
 ---- 
 
