@@ -405,6 +405,7 @@ A range of bugs have appeared during the development stages. Here a list of the 
 - Code example to make footer stick to the bottom of the page [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/)
 - Code for semantic CSS selectors inspired by [Kevin Powell's Youtube Video](https://www.youtube.com/watch?v=lWu5zf_S9R4) 
 - Excel Template for Website Testing [Link to Page](https://www.guru99.com/download-sample-test-case-template-with-explanation-of-important-fields.html)
+- Stacking of Fontawesome Icons [Link To Page](https://fontawesome.com/docs/web/style/stack)
 
 ### Content 
 

@@ -111,6 +111,9 @@ p {
 
 /* --------------------------------------------------------
 2. Navigation Bar
+
+This implementation of this section was based on a Comment on the Code Institute Slack Channel (see README.md)
+Sean_ci, "How to easily create a Navigation Menu with Flexbox", 16th Feb 2022
 -------------------------------------------------------- */
 
 /* styling of the navigation elements */
@@ -161,7 +164,6 @@ nav a {
     align-items: center;
     background-color: white;
 }
-
 
 /* styling of the logo */
 .nav-background img {
@@ -439,6 +441,13 @@ header {
 
 /* --------------------------------------------------------
 5. Yoga Classes Preview Section - Main Page  
+
+The elements of this section and the next have been based on the CSS Flexbox tutorial
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/
+
+And are also inpired by Kevin Powell's Video Tutorials about CSS Flexboxes (Link see README.md/ Acknowledgements)
 -------------------------------------------------------- */
 
 /* section with the preview and links to the classes  */
@@ -717,6 +726,10 @@ header {
 
 /* --------------------------------------------------------
 8. Footer 
+
+The implementation of a circle around the Fontawesome icons (stacking the FA icon on top of a circle icon)
+was copied and then adapted from Font Awesome's Tutorial Page 
+https://fontawesome.com/docs/web/style/stack
 -------------------------------------------------------- */
 
 /* styling of the footer  */
@@ -753,7 +766,7 @@ footer>div {
     color: var(--color-dark-discreet-brown);
 }
 
-/* to add a circle around the fontawseome icons */
+/* to add a circle around the fontawseome icons. */
 .fa-circle:before {
     border-radius: 50%;
     border: 2px solid var(--color-dark-discreet-brown);
@@ -803,6 +816,12 @@ footer>a {
 
 /* --------------------------------------------------------
 9. Weekly Yoga Schedule - Schedule Page
+
+The implementation of this section was based on an article of CSS Tricks.
+They had an implementation of a grid that was adapted ahere to create a  responsive calender (see README.md)
+https://css-tricks.com/building-a-conference-schedule-with-css-grid/
+Especially the code for using named grid-rows and grid-columns was copied. Looking back, i would have probably done it
+entirely with flexbox (now that i am more familiar with it) but it's working so i won't change it for this project. 
 -------------------------------------------------------- */
 
 /* schedule is a flexbox in a mobile setting and a grid in a desktop display*/
@@ -1139,6 +1158,9 @@ footer>a {
 
 /* --------------------------------------------------------
 11. Signup Page
+This signup form is based on the Love-running example from the Code Institute Learning Team. 
+It was then adapted to match the style and design requirements of the Yoga Studio page. 
+
 -------------------------------------------------------- */
 
 /* style the signup html page  */
@@ -1163,7 +1185,6 @@ footer>a {
     justify-content: space-around;
     text-align: left;
     gap: 0.6rem;
-    /* max-width: 480px ; */
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
     padding-left: 2rem;
     padding-right: 2rem;
