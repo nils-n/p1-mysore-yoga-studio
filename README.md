@@ -372,7 +372,7 @@ This website was deployed via GitHub Pages using the main branch: [Link to live 
      - Usability and Accessibility 
      - Compatibility and Responsiveness 
 - Results are documented in a dedicated Markdown File
-     -   Link to the Results  : [TESTING.md](./TESTING.md)
+     -   Link to the Results : [TESTING.md](./TESTING.md)
 
 ---- 
 

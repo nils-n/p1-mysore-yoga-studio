@@ -5,13 +5,13 @@ The original Excel Testing document can be accessed via [Excel Testing Results](
 
 ## Table of Contents 
 
-- [Tests for Functionality ](#test-of-functionality)
+- [Tests for Functionality ](#tests-of-functionality)
     - [Results W3C HTML Validation](#results-w3c-html-validation)
     - [Results W3C CSS (Jigsaw) Validation ](#results-w3c-css-validation)
     - [Results A11y Color Test](#results-a11y-color-test)
-- [Tests of User Stories  ](#test-user-stories)
-- [Tests for Usability   ](#test-for-usability)
-- [Tests for Compatibility ](#test-the-compatibility)
+- [Tests of User Stories  ](#tests-of-user-stories)
+- [Tests for Usability   ](#tests-for-usability)
+- [Tests for Compatibility ](#tests-for-compatibility)
 
 -----
 
@@ -92,7 +92,7 @@ The website has also been tested for usability and consistency across pages, and
 
 -----
 
-## Tests the Compatibility 
+## Tests for Compatibility 
 
 The website has been tested for compatibility between browsers, and that the website is responsive and displays correctly on all screen sizes as specified during the design stage. 
 
